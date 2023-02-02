@@ -1,0 +1,40 @@
+.bgHeader {
+  height: 102px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: var(--color-dark-opacity);
+  font-size: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+}
+
+.header {
+    height: 99px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    z-index: 1;
+    
+  }
+  
+  .header > a {
+    background: linear-gradient(to right, var(--color-primary) 0%, #1442db 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.1rem;
+    text-transform: lowercase;
+    margin-left: 22px;
+    height: 85px;
+  }

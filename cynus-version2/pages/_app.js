@@ -1,5 +1,19 @@
-import '@/styles/globals.css'
+import './globals.css'
+import Layout from '../components/Layout/Layout'
+import { ChakraProvider } from '@chakra-ui/react'
+import { DataContextProvider } from '../context/DataContext'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <ChakraProvider>
+      <DataContextProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </DataContextProvider>
+    </ChakraProvider>
+  )
 }
+
+export default MyApp
