@@ -85,6 +85,10 @@ body h3 {
   font-size: 1.1rem;
   color: var(--color-light)
 }
+body h4 {
+  font-size: 1.1rem;
+  color: #ffffff99;
+}
 
 body hr {
   box-shadow: 0 0 1px var(--color-primary);
@@ -201,7 +205,7 @@ body hr {
   box-shadow: 0 0 2px var(--color-light-opacity);
 }
 
-#about {
+/* #about {
   margin: auto;
   height: 100vh;
   position: sticky;
@@ -209,7 +213,7 @@ body hr {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .about-container button {
   margin-top: 40px;
@@ -333,8 +337,9 @@ body hr {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 2fr 3fr;
-  gap: 10%;
+  grid-template-columns: 1fr 2fr;
+  gap: 5%;
+  margin: 0px 60px 0px 60px;
 }
 
 /* MOBILE VIEW */

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import AboutCynus from '../components/AboutCynus/AboutCynus';
+import Benefits from '../components/Benefits/Benefits';
 import Contact from '../components/Contact/Contact';
 import LandingPage from '../components/LandingPage/LandingPage';
 import MileStones from '../components/Milestones/Milestones';
@@ -25,6 +26,7 @@ export default function Home() {
         </div>
         <div className='content'>
          <MileStones />
+         <Benefits />
          <WhoWeAre />
           <Contact />
           
