@@ -10,29 +10,41 @@ import { motion } from 'framer-motion'
 
 function Footer() {
     return (
-        <section className='footer-section'>
-       <div className="flex-row fo-color">
+        <section>
+            <div className='footer-section flex-row-footer'>
                 <div>
-                    <span className='footer-logo'>
-                        <Link href='/'><h2>CYNUS</h2></Link>
-                    </span>
+                <h4>© {new Date().getFullYear()}</h4>
+                </div>
+                <div className='flex-row-footer flex-row'>
+                    <div>
+                    <h4><Link href='/impressum'> Impressum</Link> </h4> 
+                    </div>
+                    <div><h4>Datenschutz­erklärung</h4>
+                    </div>
                 </div>
                 <div>
-                    <Link href='/'>Home</Link> <br />
-                    <Link href='/#Produkte'>Product</Link> <br />
-                    <Link href='/#About'>About</Link> <br />
-                    <Link href='/#Milestones'>Milestones</Link> <br />
-                    <Link href='/#Contact'>Contact</Link> <br />
+                    <h4>All rights reserved.</h4>
                 </div>
             </div>
-            <div className='flex-row flex-center madeby'>
-                <p>Copyright © {new Date().getFullYear()} CYNUS All rights reserved. | <Link href='/impressum'> Impressum</Link> |</p>
-                <br />
-                <a href="#" target="_blank" rel="noopener noreferrer"></a>
-            </div>
-
         </section>
     )
 }
 
 export default Footer
+
+
+
+
+// <div className="footer-section flex-space-between">
+// <div>
+//  <h4>Logo</h4>
+// </div>
+
+// <div className='flex-row flex-center madeby'>
+//  <h4>© {new Date().getFullYear()} CYNUS All rights reserved. | <Link href='/impressum'> Impressum</Link> |</h4>
+//  <a href="#" target="_blank" rel="noopener noreferrer"></a>
+// </div>
+// <div>
+//  <h4>Logo</h4>
+// </div>
+// </div>

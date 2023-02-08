@@ -12,7 +12,8 @@ export default function Home() {
   
 
   return (
-    <div>
+    <>
+    <div className='background-dark'>
       <Head>
         <title>CYNUS</title>
         <meta name="description" content="CYNUS" />
@@ -20,18 +21,16 @@ export default function Home() {
       </Head>
  
       <LandingPage />
-      <div className=''>
-        <div>
+ 
           <AboutCynus />
         </div>
-        <div className='content'>
+
          <MileStones />
-         <Benefits />
          <WhoWeAre />
+         <Benefits />
           <Contact />
           
-        </div>
-      </div>
-    </div>
+    
+          </>
   )
 }

@@ -28,7 +28,7 @@ function LandingPage() {
   return (
     <section id="LandingPage">
 
-      
+      <div className='background-dark'>
         <div className={styles.borderbox}>
         <div className={styles.textBottom}>
         {/* <motion.div 
@@ -54,7 +54,7 @@ function LandingPage() {
        
         
         </div>
-      
+        </div>
     </section>
   )
 }
