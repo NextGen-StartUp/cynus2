@@ -18,7 +18,9 @@ export default function Home() {
         <title>CYNUS</title>
         <meta name="description" content="CYNUS" />
         <link rel="icon" href="/favicon.ico" />
+
       </Head>
+      
  
       <LandingPage />
  
@@ -30,7 +32,7 @@ export default function Home() {
          <Benefits />
           <Contact />
           
-    
+  
           </>
   )
 }

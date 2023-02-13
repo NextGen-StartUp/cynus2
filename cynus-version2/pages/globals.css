@@ -1,21 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
-::-webkit-scrollbar {
-  width: 10px;
-  background-color: #46ca2c;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px var(--color-dark-opacity);
-}
-
-::-webkit-scrollbar-thumb:horizontal {
-  border-radius: 10px;
-  box-shadow: inset 0 0 6px var(--color-dark-opacity);
-  background-color: var(--color-dark-opacity);
-}
 
 :root {
   --color-primary: white;
@@ -36,6 +19,10 @@
   word-wrap: normal;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -46,13 +33,10 @@ html body {
 }
 .background-dark {
   background-color: var(--color-dark);
+  padding-top: 90px;
 }
 .background-light {
   background-color: var(--color-light);
-}
-
-body::-webkit-scrollbar {
-  display: none;
 }
 
 body {
@@ -183,6 +167,23 @@ body hr {
   text-align: center;
 }
 
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform-origin: 0%;
+  z-index: 1;
+  height: 1px;
+  background-color: #00cc83;
+  margin-top: 101px;
+}
+
+.grid-line {
+  border-right: 1px solid rgba(255, 255, 255, 0.247);
+  padding-right: 45px;
+}
+
 .align-left {
   text-align: left;
   justify-content: left;
@@ -201,17 +202,21 @@ body hr {
 }
 
 .full-height {
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
+
 .full-height2 {
   min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.section-container {
+ 
+  
 }
 
 .full-width {
@@ -337,6 +342,7 @@ body hr {
   grid-template-columns: 1fr 2fr;
   gap: 5%;
   margin: 0px 60px 0px 60px;
+  
 }
 .grid-container2 {
   display: grid;
@@ -354,7 +360,6 @@ body hr {
 }
 
 .border-side {
-  
   left: auto;
   top: 0;
   right: 0;
@@ -362,6 +367,16 @@ body hr {
   width: 1px;
   height: 100%;
   background-color: rgba(0,0,0,.1);
+  margin: 0px 40px 0px 40px;
+}
+
+#contact {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#contact.show {
+  opacity: 1;
 }
 
 .spacer-small {
@@ -382,7 +397,20 @@ body hr {
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
+  padding-top: 150px;
 }
+
+.text-container {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 2s ease-in-out;
+}
+
+.slide-in-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 
 /* MOBILE VIEW */
 @media screen and (max-width: 900px) {

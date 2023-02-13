@@ -5,6 +5,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion"
 import FadeInWhenVisible from '../Aminations/FadeInWhenVisible';
 import FadeIn from '../Aminations/FadeIn';
+import TextWithAnimation from "../Aminations/TextWithAnimation";
 
 function LandingPage() {
   const { elementInView } = useContext(DataContext)
@@ -31,16 +32,14 @@ function LandingPage() {
       <div className='background-dark'>
         <div className={styles.borderbox}>
         <div className={styles.textBottom}>
-        {/* <motion.div 
-        animate={{ x: [50, 0] }}
-        transition={{ duration: 1.2 }}> */}
-        <h1 className={styles.headline1}>The smartest way to control <br /> your device naturally </h1>
-        {/* </motion.div>
-        <motion.div 
-        animate={{ x: [100, 0] }}
-        transition={{ duration: 0.2 }}> */}
-        <h1 className={styles.headline2}>THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /> </h1>
-        {/* </motion.div> */}
+ 
+        <TextWithAnimation
+         text=<h1 className={styles.headline1}>The smartest way to control 
+        <br /> your device naturally</h1> delay={3500}
+        />
+        <TextWithAnimation text=<h1 className={styles.headline2}>
+        THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1>
+        delay={3700}/>
         </div>
         <video
           className={styles.videotransition}

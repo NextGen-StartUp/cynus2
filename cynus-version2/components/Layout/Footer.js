@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion'
 
 function Footer() {
+    
     return (
         <section>
             <div className='footer-section flex-row-footer'>
@@ -27,24 +28,8 @@ function Footer() {
                 </div>
             </div>
         </section>
+        
     )
 }
 
 export default Footer
-
-
-
-
-// <div className="footer-section flex-space-between">
-// <div>
-//  <h4>Logo</h4>
-// </div>
-
-// <div className='flex-row flex-center madeby'>
-//  <h4>© {new Date().getFullYear()} CYNUS All rights reserved. | <Link href='/impressum'> Impressum</Link> |</h4>
-//  <a href="#" target="_blank" rel="noopener noreferrer"></a>
-// </div>
-// <div>
-//  <h4>Logo</h4>
-// </div>
-// </div>

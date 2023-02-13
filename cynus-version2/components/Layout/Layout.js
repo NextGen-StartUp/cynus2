@@ -4,8 +4,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { useState } from "react";
 import styles from './Layout.module.css'
-import Scrollindicator from "../Scrollindicator/Scrollindicator";
-import FadeIn from "../Aminations/FadeIn";
+import UseScroll from "../Scrollindicator/UseScroll";
+
 
 
 export function NavBar() {
@@ -13,11 +13,13 @@ export function NavBar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+
+
   return (
     <>
-    <header className={styles.header}>
+    <header className={styles.header} >
     <div className={styles.bgHeader}></div>
-      <Link className={styles.logo} href='/#LandingPage'>{'CYNUS'}</Link>
+      <a className={styles.logo} to='/'  href='/'>{'CYNUS'}</a>
       <div className={styles.navLeftDotContainer}>
       
       <div>
@@ -37,10 +39,10 @@ export function NavBar() {
       </div>
       <nav>
         <ul className={click ? "nav-options active" : "nav-options"}>
-          <li onClick={closeMobileMenu}><Link href='/#AboutCynus'>About</Link></li>
-          <li onClick={closeMobileMenu}><Link href='/#Milestones'>MileStones</Link></li>
-          <li onClick={closeMobileMenu}><Link href='/#benefits'>Benefits</Link></li>
-          <li onClick={closeMobileMenu}><Link href='/#WhoWeAre'>WhoWeAre</Link></li>
+          <li onClick={closeMobileMenu}><a href='#AboutCynus'>About</a></li>
+          <li onClick={closeMobileMenu}><a  href='/#Milestones'>MileStones</a></li>
+          <li onClick={closeMobileMenu}><a  href='#WhoWeAre'>WhoWeAre</a></li>
+          <li onClick={closeMobileMenu}><a data-scroll href='#benefits'>Benefits</a></li>
     
           <li className="link-contact" onClick={closeMobileMenu}><Link href='/#Contact'>Contact</Link></li>
         </ul>
@@ -53,7 +55,8 @@ export function NavBar() {
         </div>
       </nav>
     </header>
-    <Scrollindicator />
+    
+    <UseScroll />
     </>
   )
 }
