@@ -7,7 +7,9 @@ import CardAnimationTwo from "../Aminations/CardAnimationTwo";
 function MileStones({}) {
   return (
     <section id="Milestones">
-   
+   <div className="spacer-medium"></div>
+   <div className="spacer-medium"></div>
+   <div className="spacer-small"></div>
       <div className="headlines">
         <FadeInWhenVisible>
           <h5 className="text-left">Milestones</h5>
@@ -44,9 +46,9 @@ function MileStones({}) {
           <div className="card">
             <div className="card-Img">
               <Image
-                // h="130px"
-                // w="100%"
-                // objectFit="cover"
+                h="124px"
+                w="100%"
+                objectFit="cover"
                 src="../../image/PfiffikusLogo.png"
                 className={styles.MilestonesImg}
               />

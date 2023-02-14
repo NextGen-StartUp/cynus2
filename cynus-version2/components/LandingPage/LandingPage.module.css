@@ -8,6 +8,9 @@
   bottom: 8px;
   left: 16px;
 }
+.textBottom2 {
+  display: none;
+}
 .headline1 {
  font-size: 45px;
  text-align: left;
@@ -22,26 +25,41 @@
   margin-left: 40px;
   transition-delay: 5s;
 }
+
+.videotransition {
+    max-width: 100%;
+   width: 70%; 
+   margin: auto;
+}
+
+
 @media screen and (max-width: 900px) {
   .headline1 {
-    font-size: 15px;
+    font-size: 25px;
     margin: 0px;
    }
-   
    .headline2 {
-     font-size: 10px;
+     font-size: 20px;
      margin: 0px;
    }
-   .borderbox {
-    margin: 0px;
-   }
+   
    .textBottom {
-    margin-top: 200px;
+    margin-top: 300px;
+    display: none;
    }
    .text-container {
     margin-top: 100px;
    }
-   .full-height {
-    height: 100%;
+   .borderbox {
+    margin-bottom: 5px;
    }
+   .videotransition {
+   margin: auto;
+  }
+  .textBottom2 {
+    display: block;
+    padding: 5px;
+    margin-left: 15px;
+  }
+
 }

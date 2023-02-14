@@ -10,6 +10,9 @@ function Benefits() {
     <section id="benefits">
       <div className="background-light">
         <FadeInWhenVisible>
+        <div className="spacer-medium"></div>
+   <div className="spacer-medium"></div>
+   <div className="spacer-small"></div>
           <div className="headlines">
             <h5 className="text-left">Benefits</h5>
           </div>
@@ -17,10 +20,10 @@ function Benefits() {
         <div className="full-height2">
           <CardAnimation>
             <div className="card">
-              <div>
+              <div className="card-Image">
                 <Image
                   h="190px"
-                  w="60%"
+                  w="52%"
                   objectFit="cover"
                   src="../../image/computer-desktop.png"
                   className="align-center"
@@ -101,7 +104,7 @@ function Benefits() {
               <div>
                 <Image
                   h="190px"
-                  w="50%"
+                  w="52%"
                   objectFit="cover"
                   src="../../image/road-sign.png"
                   className="align-center"
