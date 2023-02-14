@@ -25,7 +25,7 @@ function Contact() {
     <section id="Contact">
       <div className="full-height background-dark flex-center">
         <div>
-          <h3>GET IN TOUCH AND BEGINN TO REVOLUTIONISE</h3>
+          <h3 className="text-center">GET IN TOUCH AND BEGINN TO REVOLUTIONISE</h3>
           <h3 className="text-center">THE WAY WE USE A COMPUTER MOUSE</h3>
         </div>
         <div className="spacer-medium"></div>

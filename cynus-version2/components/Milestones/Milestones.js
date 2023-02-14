@@ -17,7 +17,7 @@ function MileStones({}) {
       <div className="full-height2 background-light">
         <CardAnimation>
           <div className="card">
-            <div>
+            <div className="card-Img">
               <Image
                 h="130px"
                 w="100%"
@@ -42,11 +42,11 @@ function MileStones({}) {
         </CardAnimationTwo>
         <CardAnimationTwo>
           <div className="card">
-            <div>
+            <div className="card-Img">
               <Image
-                h="130px"
-                w="100%"
-                objectFit="cover"
+                // h="130px"
+                // w="100%"
+                // objectFit="cover"
                 src="../../image/PfiffikusLogo.png"
                 className={styles.MilestonesImg}
               />

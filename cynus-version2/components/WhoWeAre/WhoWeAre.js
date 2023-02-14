@@ -1,4 +1,4 @@
-import styles from "./Works.module.css";
+import styles from "./WhoWeAre.module.css";
 import { Image } from "@chakra-ui/react";
 import FadeInWhenVisible from "../Aminations/FadeInWhenVisible.js";
 import { motion } from "framer-motion";
@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function WhoWeAre({}) {
   return (
     <section id="WhoWeAre" >
-      <div className="full-height background-dark">
+      <div className="full-height background-dark padding-top">
         <div className="grid-container2 flex-center">
           <div className="about-info">
             <FadeInWhenVisible>

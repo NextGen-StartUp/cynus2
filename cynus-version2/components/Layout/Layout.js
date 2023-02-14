@@ -22,11 +22,11 @@ export function NavBar() {
       <a className={styles.logo} to='/'  href='/'>{'CYNUS'}</a>
       <div className={styles.navLeftDotContainer}>
       
-      <div>
+      <div id="nav-bar-dot">
         <h1>•</h1>
       </div>
 
-      <div className={styles.animationContainer}>
+      <div id="navbar-dot" className={styles.animationContainer}>
          <div className={`${styles.word} ${styles.w1}`}>Harder</div>
          <div className={`${styles.word} ${styles.w2}`}>Better</div>
          <div className={`${styles.word} ${styles.w3}`}>Faster</div>

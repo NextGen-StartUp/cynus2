@@ -29,7 +29,7 @@ function LandingPage() {
   return (
     <section id="LandingPage">
 
-      <div className='background-dark'>
+      <div className={styles.fullheight}>
         <div className={styles.borderbox}>
         <div className={styles.textBottom}>
  

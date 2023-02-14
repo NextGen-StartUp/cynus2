@@ -1,6 +1,4 @@
  .Imgbox {
-    /* margin-left: auto; 
-    margin-right: 15%; */
     width: auto;
     border-right: 1px solid rgba(255, 255, 255, 0.247);
     height: 100%;
@@ -12,4 +10,10 @@
 .textbox {
     text-align: center;
     
+}
+@media screen and (max-width: 900px) {
+    .Imgbox {
+        border-right: 0px solid rgba(255, 255, 255, 0.247);
+        padding-right: 0px;
+    }
 }

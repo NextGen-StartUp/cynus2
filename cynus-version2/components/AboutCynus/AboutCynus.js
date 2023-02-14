@@ -9,7 +9,7 @@ import FadeIn from "../Aminations/FadeIn";
 function AboutCynus({}) {
   return (
     <section id="AboutCynus">
-      <div className="background-dark">
+      <div className="background-dark padding-top">
         <div className="grid-container flex-center full-height">
           <div className={styles.Imgbox}>
             <Image src="../../image/darkBlueLogo.png" />
