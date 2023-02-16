@@ -28,40 +28,30 @@
     margin: auto;
     height: fit-content;
     min-height: 60%;
-    border: 1px solid white;
-    background-color: var(--color-dark);
+    background-color: white;
     padding: 30px;
-    
-    
+    padding: 72px 85px 72px 85px;
+}
+
+.drawerCloseButton {
+    border: 1px solid black;
+    margin: 83px 80px 0px 0px;
 }
 
 .drawerBody {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
 }
 
-.drawerBody p {
-    text-align: justify;
-    margin-bottom: 20px;
-}
-
-.drawerBody img {
-    border-radius: 7px;
-    max-width: 60%;
-}
-
-.drawerBody button {
-    width: fit-content;
-    gap: 10px;
-    margin: 10px;
-    text-align: center;
+.drawerBody h1{
+ font-size: 23px;
 }
 
 .drawerFooter {
     display: flex;
     gap: 30px;
+    border-top: 1px solid rgba(12, 12, 12, 0.349);
 }
 
 
@@ -92,6 +82,10 @@
         margin: auto;
     }
 
+    .drawerBody h5{
+        font-size: 15px;
+       }
+
     .blogCard {
         flex-direction: column;
         width: 100%;
@@ -99,5 +93,13 @@
 
     .blogCard img {
         width: 100%;
+    }
+
+    .drawerContent {
+        padding: 40px;
+    }
+    .drawerCloseButton {
+        border: 1px solid black;
+        margin: 50px 60px 0px 0px;
     }
 }

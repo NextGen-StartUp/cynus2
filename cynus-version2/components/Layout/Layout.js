@@ -5,6 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { useState } from "react";
 import styles from './Layout.module.css'
 import UseScroll from "../Scrollindicator/UseScroll";
+import { Button } from "@chakra-ui/react";
 
 
 
@@ -37,14 +38,14 @@ export function NavBar() {
     
       
       </div>
-      <nav>
+      <nav className={styles.navHover}>
         <ul className={click ? "nav-options active" : "nav-options"}>
-          <li onClick={closeMobileMenu}><a href='#AboutCynus'>About</a></li>
-          <li onClick={closeMobileMenu}><a  href='/#Milestones'>MileStones</a></li>
-          <li onClick={closeMobileMenu}><a  href='#WhoWeAre'>WhoWeAre</a></li>
-          <li onClick={closeMobileMenu}><a data-scroll href='#benefits'>Benefits</a></li>
+          <li onClick={closeMobileMenu}><a href='#AboutCynus' data-link-alt="About"><span>About</span></a></li>
+          <li onClick={closeMobileMenu}><a href='#Milestones' data-link-alt="MileStones"><span>MileStones</span></a></li>
+          <li onClick={closeMobileMenu}><a href='#WhoWeAre' data-link-alt="WhoWeAre"><span>WhoWeAre</span></a></li>
+          <li onClick={closeMobileMenu}><a href='#benefits' data-link-alt="Benefits"><span>Benefits</span></a></li>
     
-          <li className="link-contact" onClick={closeMobileMenu}><Link href='/#Contact'>Contact</Link></li>
+          <li className="link-contact" onClick={closeMobileMenu}><a href='#Contact' data-link-alt="Contact"><span>Contact</span></a></li>
         </ul>
         <div className="mobile-menu" onClick={handleClick}>
           {click ? (

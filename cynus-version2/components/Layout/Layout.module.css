@@ -60,6 +60,32 @@
   text-align: left;
   color: #ffffff99;
 }
+.navHover span {
+  display: block;
+  transition: 0.5s;
+
+}
+
+.navHover a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.navHover a:hover span {
+  transform: translateY( -100%);
+}
+.navHover a:before{ 
+  position: absolute; 
+  content: attr(data-link-alt); 
+  top:100%; 
+  opacity: 0;
+  transition: 0.5s;
+}
+.navHover a:hover:before {
+  top:0; 
+  opacity: 1;
+}
+
 @keyframes w1anim {
   0%{
     opacity: 0;

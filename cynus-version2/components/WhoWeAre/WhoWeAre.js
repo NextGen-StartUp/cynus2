@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function WhoWeAre({}) {
   return (
-    <section id="WhoWeAre" >
+    <section id="WhoWeAre" className="OverlappEffect" >
       <div className="full-height background-dark padding-top">
         <div className="grid-container2 flex-center">
           <div className="about-info">
@@ -54,7 +54,7 @@ export default function WhoWeAre({}) {
                   sustainable business. Daniel holds a bachelor&apos;s degree in
                   industrial engineering and a master&apos;s degree in
                   international business, specialized in entrepreneurship and
-                  SME management.{" "}
+                  SME management.
                 </h2>
               </div>
             </FadeInWhenVisible>

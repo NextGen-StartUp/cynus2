@@ -6,7 +6,7 @@ import CardAnimationTwo from "../Aminations/CardAnimationTwo";
 
 function MileStones({}) {
   return (
-    <section id="Milestones">
+    <section id="Milestones" className="OverlappEffect">
    <div className="spacer-medium"></div>
    <div className="spacer-medium"></div>
    <div className="spacer-small"></div>
