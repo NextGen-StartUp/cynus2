@@ -3,13 +3,26 @@ import styles from "./Milestones.module.css";
 import FadeInWhenVisible from "../Aminations/FadeInWhenVisible";
 import CardAnimation from "../Aminations/CardAnimation";
 import CardAnimationTwo from "../Aminations/CardAnimationTwo";
-
-
+import { useEffect, useState } from "react";
 
 
 function MileStones({}) {
 
+  const [isMobile, setIsMobile] = useState(false);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+  
+    handleResize();
+  
+    window.addEventListener('resize', handleResize);
+  
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   
   return (
     <section id="Milestones" className="">
@@ -23,54 +36,101 @@ function MileStones({}) {
       </div>
 
       <div className="full-height2 background-light max-height">
-        <CardAnimation>
-          <div className="card">
-            <div className="card-Img">
-              <Image
-                objectFit="cover"
-                src="../../image/BadenCampusLogo.png"
-                className={styles.MilestonesImg}
-                alt="Baden Campus Logo"
-              />
-            </div>
-            <div className="spacer-small"></div>
-            <div>
-              <h5></h5>
-              <div className="spacer-small"></div>
-              <h6>
-              Startup Accelerator: We were able to qualify and participate in the Accelerator
-                Program at BadenCampus among many other startups.
-              </h6>
-            </div>
+
+      {isMobile ? (
+      <div className="card">
+        <div className="card-Img">
+          <Image
+            objectFit="cover"
+            src="../../image/BadenCampusLogo.png"
+            className={styles.MilestonesImg}
+            alt="Baden Campus Logo"
+          />
+        </div>
+        <div className="spacer-small"></div>
+        <div>
+          <h5></h5>
+          <div className="spacer-small"></div>
+          <h6>
+            Startup Accelerator: We were able to qualify and participate in the Accelerator
+            Program at BadenCampus among many other startups.
+          </h6>
+        </div>
+      </div>
+    ) : (
+      <CardAnimation>
+        <div className="card">
+          <div className="card-Img">
+            <Image
+              objectFit="cover"
+              src="../../image/BadenCampusLogo.png"
+              className={styles.MilestonesImg}
+              alt="Baden Campus Logo"
+            />
           </div>
-        </CardAnimation>
+          <div className="spacer-small"></div>
+          <div>
+            <h5></h5>
+            <div className="spacer-small"></div>
+            <h6>
+              Startup Accelerator: We were able to qualify and participate in the Accelerator
+              Program at BadenCampus among many other startups.
+            </h6>
+          </div>
+        </div>
+      </CardAnimation>
+    )}
+
         <CardAnimationTwo>
         <div className="border-side full-height"></div>
         </CardAnimationTwo>
-        <CardAnimationTwo>
-          <div className="card">
-            <div className="card-Img">
-              <Image
-                objectFit="cover"
-                src="../../image/PfiffikusLogo.png"
-                className={styles.MilestonesImg}
-                alt="Pfiffikus Logo"
-              />
-            </div>
-            <div className="spacer-small"></div>
-            <div>
-              <h5></h5>
-              <div className="spacer-small"></div>
-              <h6>
-                By participating in the Pfiffikus competition at the University
-                of Freiburg, we qualified for the 3rd place and could not only
-                prevail against other StartUp but also won a prize money for us.
-              </h6>
-            </div>
-          </div>
-        </CardAnimationTwo>
+        
+        {isMobile ? (
+      <div className="card">
+        <div className="card-Img">
+          <Image
+            objectFit="cover"
+            src="../../image/PfiffikusLogo.png"
+            className={styles.MilestonesImg}
+            alt="Pfiffikus Logo"
+          />
+        </div>
+        <div className="spacer-small"></div>
+        <div>
+          <h5></h5>
+          <div className="spacer-small"></div>
+          <h6>
+            By participating in the Pfiffikus competition at the University
+            of Freiburg, we qualified for the 3rd place and could not only
+            prevail against other StartUp but also won a prize money for us.
+          </h6>
+        </div>
       </div>
-     
+    ) : (
+      <CardAnimationTwo>
+        <div className="card">
+          <div className="card-Img">
+            <Image
+              objectFit="cover"
+              src="../../image/PfiffikusLogo.png"
+              className={styles.MilestonesImg}
+              alt="Pfiffikus Logo"
+            />
+          </div>
+          <div className="spacer-small"></div>
+          <div>
+            <h5></h5>
+            <div className="spacer-small"></div>
+            <h6>
+              By participating in the Pfiffikus competition at the University
+              of Freiburg, we qualified for the 3rd place and could not only
+              prevail against other StartUp but also won a prize money for us.
+            </h6>
+          </div>
+        </div>
+      </CardAnimationTwo>
+    )}
+      </div>  
     </section>
   );
 }
