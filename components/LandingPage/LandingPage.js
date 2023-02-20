@@ -40,7 +40,7 @@ function LandingPage() {
   return (
     <section id="LandingPage">
 
-      <div className=''>
+      <div className='min-height'>
         <div className={styles.borderbox}>
         <div className={styles.textBottom}>
  
@@ -64,7 +64,7 @@ function LandingPage() {
       </div>
     )}
         </div>
-       
+       <div className={styles.videoContainer}>
         <video
           className={styles.videotransition}
           
@@ -74,16 +74,28 @@ function LandingPage() {
           src="../../videos/Intro_1080LL.mp4"
           ref={videoEl}
         />
-       
+       </div>
        </div>
        <div className={styles.textBottom2}>
-       <TextWithAnimation
-         text=<h1 className={styles.headline1}>The smartest way to control 
+       {isMobile ? (
+          <>
+          <TextWithAnimationMobile text=<h1 className={styles.headline1}>The smartest way to control <br />
+          your device naturally </h1> delay={3500} 
+          />
+          <TextWithAnimationMobile text=<h1 className={styles.headline2}>
+          THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1> 
+          delay={3700} />
+          </>
+    ) : (
+      <div>
+        <TextWithAnimation text=<h1 className={styles.headline1}>The smartest way to control 
         <br /> your device naturally</h1> delay={3500}
         />
         <TextWithAnimation text=<h1 className={styles.headline2}>
         THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1>
         delay={3700}/>
+      </div>
+    )}
        </div>
         </div>
         

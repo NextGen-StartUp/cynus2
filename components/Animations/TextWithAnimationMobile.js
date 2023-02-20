@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { motion } from "framer-motion"
 const TextWithAnimationMobile = ({ text, delay }) => {
   const [showText, setShowText] = useState(false);
 
@@ -8,7 +8,7 @@ const TextWithAnimationMobile = ({ text, delay }) => {
   }, delay);
 
   return (
-    <div
+    <motion.div
       className="text-container"
       style={{
         opacity: showText ? 1 : 0,
@@ -17,7 +17,7 @@ const TextWithAnimationMobile = ({ text, delay }) => {
       }}
     >
       {text}
-    </div>
+    </motion.div>
   );
 };
 

@@ -63,7 +63,6 @@
 .navHover span {
   display: block;
   transition: 0.5s;
-
 }
 
 .navHover a {
@@ -170,7 +169,24 @@
           animation: w5anim 14s infinite;
 }
 @media (max-width: 767px) {
+
   .animationContainer {
     display: none;
+  }
+
+  .navHover span {
+    transition: none;
+  }
+  
+  .navHover a:hover span {
+    transform: none;
+  }
+
+  .navHover a:before{ 
+    position: absolute; 
+    content: attr(data-link-alt); 
+    top:0%; 
+    opacity: 0;
+    transition: none;
   }
 }

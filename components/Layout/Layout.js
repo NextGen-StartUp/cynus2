@@ -33,15 +33,14 @@ export function NavBar() {
          <div className={`${styles.word} ${styles.w3}`}>Faster</div>
          <div className={`${styles.word} ${styles.w4}`}>Stronger</div>
          <div className={`${styles.word} ${styles.w5}`}>Cynus is the best</div>
-    
       </div>
     
       
       </div>
       <nav className={styles.navHover}>
         <ul className={click ? "nav-options active" : "nav-options"}>
-          <li onClick={closeMobileMenu}><Link href='#AboutCynus' data-link-alt="About"><span>About</span></Link></li>
-          <li onClick={closeMobileMenu}><Link href='#Milestones' data-link-alt="MileStones"><span>MileStones</span></Link></li>
+          <li onClick={closeMobileMenu}><Link href='#AboutCynus' data-link-alt="About"><span style={{ cursor: 'pointer' }}>About</span></Link></li>
+          <li onClick={closeMobileMenu}><Link href='#Milestones' data-link-alt="MileStones"><span style={{ cursor: 'pointer' }}>MileStones</span></Link></li>
           <li onClick={closeMobileMenu}><Link href='#WhoWeAre' data-link-alt="WhoWeAre"><span>WhoWeAre</span></Link></li>
           <li onClick={closeMobileMenu}><Link href='#benefits' data-link-alt="Benefits"><span>Benefits</span></Link></li>
     

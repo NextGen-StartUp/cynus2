@@ -417,6 +417,10 @@ body hr {
 .contact-icon-hover a:hover {
   color: var(--color-light-gray);
 }
+
+.min-height {
+  min-height: 85vh;
+}
 /* 
 .OverlappEffect {
   position: sticky;
@@ -436,6 +440,8 @@ body hr {
   height: 100vh;
   margin-top: -100vh;
 } */
+
+
 
 /* MOBILE VIEW */
 @media screen and (max-width: 900px) {
@@ -502,8 +508,8 @@ body hr {
   }
 
   .grid-container {
-    grid-template-columns: 1fr;
-    gap: 0;
+    display: flex;
+    flex-direction: column;
   }
   .grid-container2 {
     grid-template-columns: 1fr;
@@ -531,6 +537,9 @@ body hr {
   }
   .padding-top {
     padding-top: 20px
+  }
+  .padding-top2 {
+    padding-top: 100px;
   }
   .text-center {
     font-size: 15px;

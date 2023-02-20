@@ -25,7 +25,7 @@ function Contact() {
   return (
     <section id="Contact" className="OverlappSection2">
       <div className="full-height background-dark flex-center">
-        <div>
+        <div className="padding-top2">
           <h3 className="text-center">
             GET IN TOUCH AND BEGINN TO REVOLUTIONISE
           </h3>
@@ -33,7 +33,7 @@ function Contact() {
         </div>
         <div className="spacer-medium"></div>
         <FadeInWhenVisible>
-          <div>
+          <div className="padding-top">
             <WhileHover>
               <Button className="button" onClick={onOpen}>
                 Get in Touch

@@ -58,8 +58,22 @@
   }
   .textBottom2 {
     display: block;
-    padding: 5px;
+    padding: 40px 5px;
     margin-left: 15px;
+  }
+  .videotransition {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+    transform: scale(1.5); 
+    
+  }
+  .videoContainer {
+    padding-top: 45px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
   }
 
 }

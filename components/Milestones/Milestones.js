@@ -24,6 +24,8 @@ function MileStones({}) {
     };
   }, []);
   
+  console.log(isMobile)
+
   return (
     <section id="Milestones" className="">
    <div className="spacer-medium"></div>
@@ -47,16 +49,15 @@ function MileStones({}) {
             alt="Baden Campus Logo"
           />
         </div>
-        <div className="spacer-small"></div>
         <div>
-          <h5></h5>
-          <div className="spacer-small"></div>
           <h6>
             Startup Accelerator: We were able to qualify and participate in the Accelerator
             Program at BadenCampus among many other startups.
           </h6>
         </div>
+        <div className="spacer-small"></div>
       </div>
+      
     ) : (
       <CardAnimation>
         <div className="card">
@@ -88,6 +89,7 @@ function MileStones({}) {
         {isMobile ? (
       <div className="card">
         <div className="card-Img">
+        
           <Image
             objectFit="cover"
             src="../../image/PfiffikusLogo.png"
@@ -95,10 +97,8 @@ function MileStones({}) {
             alt="Pfiffikus Logo"
           />
         </div>
-        <div className="spacer-small"></div>
         <div>
           <h5></h5>
-          <div className="spacer-small"></div>
           <h6>
             By participating in the Pfiffikus competition at the University
             of Freiburg, we qualified for the 3rd place and could not only
@@ -110,6 +110,8 @@ function MileStones({}) {
       <CardAnimationTwo>
         <div className="card">
           <div className="card-Img">
+          <div className="spacer-small"></div>
+          <div className="spacer-small"></div>
             <Image
               objectFit="cover"
               src="../../image/PfiffikusLogo.png"
@@ -117,6 +119,7 @@ function MileStones({}) {
               alt="Pfiffikus Logo"
             />
           </div>
+          <div className="spacer-small"></div>
           <div className="spacer-small"></div>
           <div>
             <h5></h5>
