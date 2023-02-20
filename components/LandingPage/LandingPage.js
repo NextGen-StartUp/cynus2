@@ -2,9 +2,6 @@ import { useContext } from 'react';
 import { DataContext } from '../../context/DataContext';
 import styles from './LandingPage.module.css'
 import React, { useEffect, useRef } from "react";
-import { motion } from "framer-motion"
-import FadeInWhenVisible from '../Aminations/FadeInWhenVisible';
-import FadeIn from '../Aminations/FadeIn';
 import TextWithAnimation from "../Aminations/TextWithAnimation";
 
 function LandingPage() {

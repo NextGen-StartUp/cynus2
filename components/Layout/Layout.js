@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { useState } from "react";
 import styles from './Layout.module.css'
 import UseScroll from "../Scrollindicator/UseScroll";
-import { Button } from "@chakra-ui/react";
+
 
 
 
@@ -20,7 +20,7 @@ export function NavBar() {
     <>
     <header className={styles.header} >
     <div className={styles.bgHeader}></div>
-      <Link className={styles.logo} to='/'  href='/'>{'CYNUS'}</Link>
+      <Link className={styles.logo} data-link-alt="Landing Page" href='#LandingPage'>{'CYNUS'}</Link>
       <div className={styles.navLeftDotContainer}>
       
       <div id="nav-bar-dot">
