@@ -7,7 +7,6 @@ import TextWithAnimationMobile from '../Animations/TextWithAnimationMobile';
 
 function LandingPage() {
   const { elementInView } = useContext(DataContext)
-  const [isMobile, setIsMobile] = useState(false);
   const videoEl = useRef(null);
 
   const attemptPlay = () => {
@@ -22,9 +21,11 @@ function LandingPage() {
     attemptPlay();
   }, []);
 
+  const [isMobile, setIsMobile] = useState(false);
+
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(window.innerWidth < 168);
     };
   
     handleResize();
@@ -44,12 +45,14 @@ function LandingPage() {
         <div className={styles.textBottom}>
  
         {isMobile ? (
-      <>
-      <TextWithAnimationMobile>
-        <h1 className={styles.headline1}>The smartest way to control your device naturally</h1>
-        <h1 className={styles.headline2}>THE FIRST FULLY FLEXIBLE CONFIGURABLE OPEN SPACE PC MOUSE</h1>
-        </TextWithAnimationMobile>
-      </>
+          <>
+          <TextWithAnimationMobile text=<h1 className={styles.headline1}>The smartest way to control <br />
+          your device naturally </h1> delay={3500} 
+          />
+          <TextWithAnimationMobile text=<h1 className={styles.headline2}>
+          THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1> 
+          delay={3700} />
+          </>
     ) : (
       <div>
         <TextWithAnimation text=<h1 className={styles.headline1}>The smartest way to control 
