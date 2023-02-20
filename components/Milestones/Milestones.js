@@ -30,6 +30,7 @@ function MileStones({}) {
                 objectFit="cover"
                 src="../../image/BadenCampusLogo.png"
                 className={styles.MilestonesImg}
+                alt="Baden Campus Logo"
               />
             </div>
             <div className="spacer-small"></div>
@@ -53,6 +54,7 @@ function MileStones({}) {
                 objectFit="cover"
                 src="../../image/PfiffikusLogo.png"
                 className={styles.MilestonesImg}
+                alt="Pfiffikus Logo"
               />
             </div>
             <div className="spacer-small"></div>

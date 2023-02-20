@@ -12,7 +12,9 @@ function AboutCynus({}) {
       <div className="background-dark padding-top">
         <div className="grid-container flex-center full-height">
           <div className={styles.Imgbox}>
-            <Image src="../../image/darkBlueLogo.png" />
+            <Image 
+            alt="Cynus Logo"
+            src="../../image/darkBlueLogo.png" />
           </div>
           <div className={styles.textbox}>
           <FadeInWhenVisible>

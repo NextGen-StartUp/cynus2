@@ -27,6 +27,7 @@ function Benefits() {
                   objectFit="cover"
                   src="../../image/computer-desktop.png"
                   className="align-center"
+                  alt="Sign for High Ergonomics"
                 />
               </div>
               <div className="spacer-small"></div>
@@ -55,6 +56,7 @@ function Benefits() {
                   objectFit="cover"
                   src="../../image/time-to-market.png"
                   className="align-center"
+                  alt="Sign for increased Productivity"
                 />
               </div>
               <div className="spacer-small"></div>
@@ -80,6 +82,7 @@ function Benefits() {
                   objectFit="cover"
                   src="../../image/multiple.png"
                   className="align-center"
+                  alt="Sign for One-For-All Computers"
                 />
               </div>
               <div className="spacer-small"></div>
@@ -108,6 +111,7 @@ function Benefits() {
                   objectFit="cover"
                   src="../../image/road-sign.png"
                   className="align-center"
+                  alt="Sign for More Flexibility"
                 />
               </div>
               <div className="spacer-small"></div>

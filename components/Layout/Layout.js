@@ -20,7 +20,7 @@ export function NavBar() {
     <>
     <header className={styles.header} >
     <div className={styles.bgHeader}></div>
-      <a className={styles.logo} to='/'  href='/'>{'CYNUS'}</a>
+      <Link className={styles.logo} to='/'  href='/'>{'CYNUS'}</Link>
       <div className={styles.navLeftDotContainer}>
       
       <div id="nav-bar-dot">
@@ -40,12 +40,12 @@ export function NavBar() {
       </div>
       <nav className={styles.navHover}>
         <ul className={click ? "nav-options active" : "nav-options"}>
-          <li onClick={closeMobileMenu}><a href='#AboutCynus' data-link-alt="About"><span>About</span></a></li>
-          <li onClick={closeMobileMenu}><a href='#Milestones' data-link-alt="MileStones"><span>MileStones</span></a></li>
-          <li onClick={closeMobileMenu}><a href='#WhoWeAre' data-link-alt="WhoWeAre"><span>WhoWeAre</span></a></li>
-          <li onClick={closeMobileMenu}><a href='#benefits' data-link-alt="Benefits"><span>Benefits</span></a></li>
+          <li onClick={closeMobileMenu}><Link href='#AboutCynus' data-link-alt="About"><span>About</span></Link></li>
+          <li onClick={closeMobileMenu}><Link href='#Milestones' data-link-alt="MileStones"><span>MileStones</span></Link></li>
+          <li onClick={closeMobileMenu}><Link href='#WhoWeAre' data-link-alt="WhoWeAre"><span>WhoWeAre</span></Link></li>
+          <li onClick={closeMobileMenu}><Link href='#benefits' data-link-alt="Benefits"><span>Benefits</span></Link></li>
     
-          <li className="link-contact" onClick={closeMobileMenu}><a href='#Contact' data-link-alt="Contact"><span>Contact</span></a></li>
+          <li className="link-contact" onClick={closeMobileMenu}><Link href='#Contact' data-link-alt="Contact"><span>Contact</span></Link></li>
         </ul>
         <div className="mobile-menu" onClick={handleClick}>
           {click ? (
