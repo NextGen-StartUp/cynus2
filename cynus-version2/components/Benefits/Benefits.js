@@ -7,8 +7,8 @@ import CardAnimationfour from "../Aminations/CardAnimationfour";
 
 function Benefits() {
   return (
-    <section id="benefits">
-      <div className="background-light">
+    <section id="benefits" className="OverlappSection">
+      <div className="background-light" >
         <FadeInWhenVisible>
         <div className="spacer-medium"></div>
    <div className="spacer-medium"></div>
@@ -17,7 +17,7 @@ function Benefits() {
             <h5 className="text-left">Benefits</h5>
           </div>
         </FadeInWhenVisible>
-        <div className="full-height2">
+        <div className="full-height2 max-height2">
           <CardAnimation>
             <div className="card">
               <div className="card-Image">

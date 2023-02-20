@@ -30,7 +30,7 @@ function Contact() {
 
 
   return (
-    <section id="Contact" className="OverlappEffect">
+    <section id="Contact" className="OverlappSection2">
       <div className="full-height background-dark flex-center">
         <div>
           <h3 className="text-center">GET IN TOUCH AND BEGINN TO REVOLUTIONISE</h3>

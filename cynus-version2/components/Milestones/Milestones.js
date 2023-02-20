@@ -4,9 +4,15 @@ import FadeInWhenVisible from "../Aminations/FadeInWhenVisible";
 import CardAnimation from "../Aminations/CardAnimation";
 import CardAnimationTwo from "../Aminations/CardAnimationTwo";
 
+
+
+
 function MileStones({}) {
+
+
+  
   return (
-    <section id="Milestones" className="OverlappEffect">
+    <section id="Milestones" className="">
    <div className="spacer-medium"></div>
    <div className="spacer-medium"></div>
    <div className="spacer-small"></div>
@@ -16,13 +22,11 @@ function MileStones({}) {
         </FadeInWhenVisible>
       </div>
 
-      <div className="full-height2 background-light">
+      <div className="full-height2 background-light max-height">
         <CardAnimation>
           <div className="card">
             <div className="card-Img">
               <Image
-                h="130px"
-                w="100%"
                 objectFit="cover"
                 src="../../image/BadenCampusLogo.png"
                 className={styles.MilestonesImg}
@@ -46,8 +50,6 @@ function MileStones({}) {
           <div className="card">
             <div className="card-Img">
               <Image
-                h="124px"
-                w="100%"
                 objectFit="cover"
                 src="../../image/PfiffikusLogo.png"
                 className={styles.MilestonesImg}

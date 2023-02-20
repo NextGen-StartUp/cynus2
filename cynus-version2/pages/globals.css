@@ -55,7 +55,7 @@ body button {
   gap: 10px;
   text-align: center;
   border-radius: 50%;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 body button:hover {
@@ -209,12 +209,19 @@ body hr {
 }
 
 .full-height2 {
-  min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/* .max-height {
+  max-height: 650px;
+}
+
+.max-height2 {
+  max-height: 700px;
+} */
 
 .full-width {
   display: flex;
@@ -325,15 +332,6 @@ body hr {
   gap: 40px;
 }
 
-#works,
-#blog,
-#contact {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -350,14 +348,13 @@ body hr {
 
 .card {
   width: 410px;
-  height: auto;
   margin: 50px 0px 50px 0px;
   background-color: var(--color-light);
   padding: 23px;
   position: relative;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .border-side {
@@ -420,8 +417,25 @@ body hr {
 .contact-icon-hover a:hover {
   color: var(--color-light-gray);
 }
+/* 
+.OverlappEffect {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+}
 
+.OverlappSection {
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  margin-top: -100vh;
+}
 
+.OverlappSection2 {
+  height: 100vh;
+  margin-top: -100vh;
+} */
 
 /* MOBILE VIEW */
 @media screen and (max-width: 900px) {
@@ -429,11 +443,6 @@ body hr {
   :root {
     font-size: 13px;
     --padding-default: 30px;
-  }
-
-  #contact {
-    height: fit-content;
-    margin: 0 auto 60px auto;
   }
 
   .mobile-menu {
@@ -480,11 +489,6 @@ body hr {
 
   .about-info {
     width: 100%;
-  }
-
-  .avatar {
-    width: 90% !important;
-    height: 90% !important;
   }
 
   #contact form,
