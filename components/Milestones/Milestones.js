@@ -1,8 +1,8 @@
 import { Image } from "@chakra-ui/react";
 import styles from "./Milestones.module.css";
-import FadeInWhenVisible from "../Aminations/FadeInWhenVisible";
-import CardAnimation from "../Aminations/CardAnimation";
-import CardAnimationTwo from "../Aminations/CardAnimationTwo";
+import FadeInWhenVisible from "../Animations/FadeInWhenVisible";
+import CardAnimation from "../Animations/CardAnimation";
+import CardAnimationTwo from "../Animations/CardAnimationTwo";
 import { useEffect, useState } from "react";
 
 

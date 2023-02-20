@@ -1,12 +1,13 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { DataContext } from '../../context/DataContext';
 import styles from './LandingPage.module.css'
 import React, { useEffect, useRef } from "react";
-import TextWithAnimation from "../Aminations/TextWithAnimation";
+import TextWithAnimation from "../Animations/TextWithAnimation";
+import TextWithAnimationMobile from '../Animations/TextWithAnimationMobile';
 
 function LandingPage() {
   const { elementInView } = useContext(DataContext)
-
+  const [isMobile, setIsMobile] = useState(false);
   const videoEl = useRef(null);
 
   const attemptPlay = () => {
@@ -21,7 +22,19 @@ function LandingPage() {
     attemptPlay();
   }, []);
 
-
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+  
+    handleResize();
+  
+    window.addEventListener('resize', handleResize);
+  
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <section id="LandingPage">
@@ -30,13 +43,23 @@ function LandingPage() {
         <div className={styles.borderbox}>
         <div className={styles.textBottom}>
  
-        <TextWithAnimation
-         text=<h1 className={styles.headline1}>The smartest way to control 
+        {isMobile ? (
+      <>
+      <TextWithAnimationMobile>
+        <h1 className={styles.headline1}>The smartest way to control your device naturally</h1>
+        <h1 className={styles.headline2}>THE FIRST FULLY FLEXIBLE CONFIGURABLE OPEN SPACE PC MOUSE</h1>
+        </TextWithAnimationMobile>
+      </>
+    ) : (
+      <div>
+        <TextWithAnimation text=<h1 className={styles.headline1}>The smartest way to control 
         <br /> your device naturally</h1> delay={3500}
         />
         <TextWithAnimation text=<h1 className={styles.headline2}>
         THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1>
         delay={3700}/>
+      </div>
+    )}
         </div>
        
         <video

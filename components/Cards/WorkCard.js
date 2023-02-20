@@ -15,7 +15,7 @@ import styles from '../Cards/Card.module.css'
 import { motion } from 'framer-motion'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import PreviewIcon from '@mui/icons-material/Preview';
-import WhileHover from '../Aminations/WhileHover'
+import WhileHover from '../Animations/WhileHover'
 
 function WorkCard({ title, subtitle, description, imageURL, repoURL, demoURL }) {
     const { isOpen, onOpen, onClose } = useDisclosure()

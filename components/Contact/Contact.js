@@ -1,7 +1,7 @@
 import styles from "./Contact.module.css";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FadeInWhenVisible from "../Aminations/FadeInWhenVisible";
+import FadeInWhenVisible from "../Animations/FadeInWhenVisible";
 import {
   Box,
   Image,
@@ -15,7 +15,7 @@ import {
   DrawerBody,
   DrawerFooter,
 } from "@chakra-ui/react";
-import WhileHover from "../Aminations/WhileHover";
+import WhileHover from "../Animations/WhileHover";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 import React from "react";
 

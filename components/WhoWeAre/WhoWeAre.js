@@ -1,6 +1,6 @@
 import styles from "./WhoWeAre.module.css";
 import { Image } from "@chakra-ui/react";
-import FadeInWhenVisible from "../Aminations/FadeInWhenVisible.js";
+import FadeInWhenVisible from "../Animations/FadeInWhenVisible.js";
 import { motion } from "framer-motion";
 
 export default function WhoWeAre({}) {

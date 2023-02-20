@@ -1,9 +1,9 @@
 import { Image } from "@chakra-ui/react";
-import CardAnimation from "../Aminations/CardAnimation";
-import FadeInWhenVisible from "../Aminations/FadeInWhenVisible";
-import CardAnimationTwo from "../Aminations/CardAnimationTwo";
-import CardAnimationthree from "../Aminations/CardAnimationthree";
-import CardAnimationfour from "../Aminations/CardAnimationfour";
+import CardAnimation from "../Animations/CardAnimation";
+import FadeInWhenVisible from "../Animations/FadeInWhenVisible";
+import CardAnimationTwo from "../Animations/CardAnimationTwo";
+import CardAnimationthree from "../Animations/CardAnimationthree";
+import CardAnimationfour from "../Animations/CardAnimationfour";
 import { useEffect, useState } from 'react';
 
 function Benefits() {

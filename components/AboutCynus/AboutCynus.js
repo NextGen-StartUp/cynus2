@@ -3,8 +3,8 @@ import Link from "next/link";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 import Button from "@mui/material/Button";
 import styles from "./AboutCynus.module.css";
-import FadeInWhenVisible from "../Aminations/FadeInWhenVisible";
-import FadeIn from "../Aminations/FadeIn";
+import FadeInWhenVisible from "../Animations/FadeInWhenVisible";
+import FadeIn from "../Animations/FadeIn";
 
 function AboutCynus({}) {
   return (
