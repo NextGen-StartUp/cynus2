@@ -1,12 +1,5 @@
-import { Image } from '@chakra-ui/react';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
-import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import WorkIcon from '@mui/icons-material/Work';
 import Link from 'next/link';
-import { motion } from 'framer-motion'
+
 
 function Footer() {
     
@@ -18,9 +11,9 @@ function Footer() {
                 </div>
                 <div className='flex-row-footer flex-row'>
                     <div>
-                    <h4><Link href='/impressum'> Impressum</Link> </h4> 
+                    <h4><Link href="/impressum"> Impressum</Link> </h4> 
                     </div>
-                    <div><h4>Datenschutz­erklärung</h4>
+                    <div><h4>Datenschutzerklärung</h4>
                     </div>
                 </div>
                 <div>
