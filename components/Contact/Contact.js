@@ -17,23 +17,18 @@ import {
 } from "@chakra-ui/react";
 import WhileHover from "../Aminations/WhileHover";
 import LinkedIn from "@mui/icons-material/LinkedIn";
-import React from 'react';
-
-
-
-
-
-
+import React from "react";
 
 function Contact() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
 
   return (
     <section id="Contact" className="OverlappSection2">
       <div className="full-height background-dark flex-center">
         <div>
-          <h3 className="text-center">GET IN TOUCH AND BEGINN TO REVOLUTIONISE</h3>
+          <h3 className="text-center">
+            GET IN TOUCH AND BEGINN TO REVOLUTIONISE
+          </h3>
           <h3 className="text-center">THE WAY WE USE A COMPUTER MOUSE</h3>
         </div>
         <div className="spacer-medium"></div>
@@ -45,38 +40,29 @@ function Contact() {
               </Button>
             </WhileHover>
 
-            <Drawer 
-            placement="top"
-            onClose={onClose} 
-            isOpen={isOpen} 
-            size="xl"
-            >
+            <Drawer placement="top" onClose={onClose} isOpen={isOpen} size="xl">
               <DrawerOverlay />
               <DrawerContent className={styles.drawerContent}>
-              
                 <DrawerHeader className="">
                   <h5>Contact</h5>
                 </DrawerHeader>
-                <DrawerCloseButton className={styles.drawerCloseButton}
+                <DrawerCloseButton
+                  className={styles.drawerCloseButton}
                   backgroundColor="initial"
                   color="black"
                   zIndex={2}
-                  
                 />
                 <DrawerBody className={styles.drawerBody}>
-                <h5>
-                    We&apos;d love to hear from you! Whether you have a question, a
-                    suggestion, or just want to say hi, our doors are always
-                    open. Don&apos;t hesitate to reach out to us and we&apos;ll be happy
-                    to assist in any way we can. Let&apos;s connect and make
-                    something great happen together!
+                  <h5>
+                    We&apos;d love to hear from you! Whether you have a
+                    question, a suggestion, or just want to say hi, our doors
+                    are always open. Don&apos;t hesitate to reach out to us and
+                    we&apos;ll be happy to assist in any way we can. Let&apos;s
+                    connect and make something great happen together!
                   </h5>
-                  
-                  
-            
                 </DrawerBody>
                 <DrawerFooter className={styles.drawerFooter}>
-                <div className="flex-row align-center">
+                  <div className="flex-row align-center">
                     <div className="text-center contact-icon-hover">
                       <h5>E-Mail</h5>
                       <a
@@ -84,9 +70,7 @@ function Contact() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <EmailIcon 
-                          sx={{ fontSize: "100px", margin: 1 }}
-                        />
+                        <EmailIcon sx={{ fontSize: "100px", margin: 1 }} />
                       </a>
                       <h1></h1>
                     </div>
@@ -98,9 +82,7 @@ function Contact() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <LinkedInIcon
-                          sx={{ fontSize: "100px", margin: 1 }}
-                        />
+                        <LinkedInIcon sx={{ fontSize: "100px", margin: 1 }} />
                       </a>
                     </div>
                   </div>
