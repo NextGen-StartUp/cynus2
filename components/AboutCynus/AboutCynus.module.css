@@ -16,11 +16,13 @@
         border-right: 0px solid rgba(255, 255, 255, 0.247);
         padding-right: 0px;
     }
-    .Imgbox Image {
-        
-    }
     .textbox {
         text-align: left;
         width: 100%;
+        padding: 20px 2px;
+    }
+    .textbox h1 {
+        text-align: center;
+        padding-bottom: 10px;
     }
 }
