@@ -28,6 +28,3 @@ function Footer() {
 
 export default Footer
 
-
-
-// "Datenschutz: Wir erheben und verarbeiten keine personenbezogenen Daten von Ihnen und verwenden keine Cookies. Ihre Privatsphäre ist uns wichtig."

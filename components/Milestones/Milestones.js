@@ -5,7 +5,6 @@ import CardAnimation from "../Animations/CardAnimation";
 import CardAnimationTwo from "../Animations/CardAnimationTwo";
 import { useEffect, useState } from "react";
 
-
 function MileStones({}) {
 
   const [isMobile, setIsMobile] = useState(false);
@@ -24,8 +23,6 @@ function MileStones({}) {
     };
   }, []);
   
-  console.log(isMobile)
-
   return (
     <section id="Milestones" className="">
    <div className="spacer-medium"></div>
@@ -57,7 +54,6 @@ function MileStones({}) {
         </div>
         <div className="spacer-small"></div>
       </div>
-      
     ) : (
       <CardAnimation>
         <div className="card">
@@ -81,7 +77,6 @@ function MileStones({}) {
         </div>
       </CardAnimation>
     )}
-
         <CardAnimationTwo>
         <div className="border-side full-height"></div>
         </CardAnimationTwo>
@@ -89,7 +84,6 @@ function MileStones({}) {
         {isMobile ? (
       <div className="card">
         <div className="card-Img">
-        
           <Image
             objectFit="cover"
             src="../../image/PfiffikusLogo.png"

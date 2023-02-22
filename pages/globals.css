@@ -426,6 +426,41 @@ body hr {
   font-size: 30px;
   text-align: center;
 }
+
+.top-drawer {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 101px;
+  background-color: var(--color-dark);
+  z-index: 1000;
+  transition: top 0.9s ease-in-out;
+}
+
+.top-drawer.open {
+  top: 0;
+}
+
+.drawer-header {
+  padding:5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.drawer-content {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: var(--color-light);
+  font-size: 20px;
+
+}
+
 /* 
 .OverlappEffect {
   position: sticky;
@@ -576,6 +611,9 @@ body hr {
   }
  .spacer-medium {
   display: none;
+  }
+  .drawer-content {
+    font-size: 11px;
   }
 
 }

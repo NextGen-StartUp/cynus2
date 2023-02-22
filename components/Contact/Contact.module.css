@@ -27,7 +27,7 @@
     left: 0;
     margin: auto;
     height: fit-content;
-    min-height: 60%;
+    min-height: 50%;
     background-color: white;
     padding: 72px 85px 72px 85px;
 }
@@ -72,18 +72,9 @@
 
 }
 @media screen and (max-width: 900px) {
-    .workCard {
-        width: 100%;
-        margin: auto;
-    }
-
+   
     .drawerBody {
         flex-direction: column-reverse;
-    }
-
-    .drawerBody img {
-        width: 100%;
-        margin: auto;
     }
 
     .drawerBody h5{
@@ -102,16 +93,21 @@
     .drawerContent {
         padding: 20px;
     }
+
     .drawerCloseButton {
         border: 1px solid black;
-        margin: 30px 60px 0px 0px;
+        margin: 30px 45px 0px 0px;
     }
 
     .FooterIcon  {
         font-size: 80px;
     }
+
+    .drawerFooter {
+        padding:  10px 0px 0px 0px;
+    }
+
     .drawerFooter h5 {
         font-size: 20px;
     }
-    
 }

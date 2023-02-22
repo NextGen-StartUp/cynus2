@@ -5,7 +5,6 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
 import styles from "./Layout.module.css";
 import UseScroll from "../Scrollindicator/UseScroll";
-import PopUp from "../PopUp/PopUp";
 
 export function NavBar() {
   const [click, setClick] = useState(false);
@@ -58,7 +57,7 @@ export function NavBar() {
               </Link>
             </li>
             <li className="link-contact" onClick={closeMobileMenu}>
-              <Link href="#Contact" data-link-alt="Contact">
+              <Link href="/#Contact" data-link-alt="Contact">
                 <span>Contact</span>
               </Link>
             </li>
@@ -80,7 +79,6 @@ function Layout(props) {
   return (
     <div className="layout">
       <NavBar />
-      <PopUp />
       <div className="main-container">
         <main>{props.children}</main>
       </div>

@@ -43,7 +43,7 @@ function Contact() {
             <Drawer placement="top" onClose={onClose} isOpen={isOpen} size="xl">
               <DrawerOverlay />
               <DrawerContent className={styles.drawerContent}>
-                <DrawerHeader className="">
+                <DrawerHeader className={styles.contactheader}>
                   <h5>Contact</h5>
                 </DrawerHeader>
                 <DrawerCloseButton
@@ -56,9 +56,7 @@ function Contact() {
                   <h5>
                     We&apos;d love to hear from you! Whether you have a
                     question, a suggestion, or just want to say hi, our doors
-                    are always open. Don&apos;t hesitate to reach out to us and
-                    we&apos;ll be happy to assist in any way we can. Let&apos;s
-                    connect and make something great happen together!
+                    are always open. Let&apos;s connect and make something great happen together!
                   </h5>
                 </DrawerBody>
                 <DrawerFooter className={styles.drawerFooter}>
