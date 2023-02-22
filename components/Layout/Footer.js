@@ -11,9 +11,10 @@ function Footer() {
                 </div>
                 <div className='flex-row-footer flex-row'>
                     <div>
-                    <h4><Link href="/impressum"> Impressum</Link> </h4> 
+                    <h4><Link href="/impressum">Impressum</Link> </h4> 
                     </div>
-                    <div><h4>Datenschutzerklärung</h4>
+                    <div>
+                    <h4><Link href="/Datenschutzerklaerung">Datenschutzerklärung</Link></h4>
                     </div>
                 </div>
                 <div>
@@ -26,3 +27,7 @@ function Footer() {
 }
 
 export default Footer
+
+
+
+// "Datenschutz: Wir erheben und verarbeiten keine personenbezogenen Daten von Ihnen und verwenden keine Cookies. Ihre Privatsphäre ist uns wichtig."

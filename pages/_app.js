@@ -4,6 +4,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { DataContextProvider } from '../context/DataContext'
 
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>

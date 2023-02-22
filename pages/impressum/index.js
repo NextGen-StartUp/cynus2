@@ -3,7 +3,7 @@ function Impressum() {
     <div className="full-height2 align-left">
       <div className="div-box">
         <div className="spacer-medium"></div>
-        <h5>Impressum</h5>
+        <h1>Impressum</h1>
         <div className="spacer-medium"></div>
         <h5>Haftung für Inhalte:</h5>
         <div className="spacer-small"></div>

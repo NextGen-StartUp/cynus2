@@ -421,6 +421,11 @@ body hr {
 .min-height {
   min-height: 85vh;
 }
+.div-box h1 {
+  color: var(--color-dark);
+  font-size: 30px;
+  text-align: center;
+}
 /* 
 .OverlappEffect {
   position: sticky;

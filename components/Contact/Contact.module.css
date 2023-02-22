@@ -29,7 +29,6 @@
     height: fit-content;
     min-height: 60%;
     background-color: white;
-    padding: 30px;
     padding: 72px 85px 72px 85px;
 }
 
@@ -101,17 +100,18 @@
     }
 
     .drawerContent {
-        padding: 40px;
+        padding: 20px;
     }
     .drawerCloseButton {
         border: 1px solid black;
-        margin: 50px 60px 0px 0px;
+        margin: 30px 60px 0px 0px;
     }
 
     .FooterIcon  {
-        font-size: 55px;
+        font-size: 80px;
     }
     .drawerFooter h5 {
-        font-size: 23.4px;
+        font-size: 20px;
     }
+    
 }
