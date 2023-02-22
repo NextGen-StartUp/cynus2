@@ -528,11 +528,13 @@ body hr {
     padding: 40px 30px;
     align-content: center;
     background-color: var(--color-dark);
+    display: none;
   }
 
   .nav-options.active {
     opacity: 1;
     transition: all 0.9s ease;
+    display: flex;
   }
   .link-contact a {
     margin: 0px;
@@ -572,6 +574,7 @@ body hr {
   .card h6 {
     font-size: 20px;
     padding: 5px 15px 20px 15px;
+    
   }
   .card h5 {
     padding: 15px;
@@ -632,6 +635,13 @@ body hr {
   .div-box {
     width: 100%;
     padding: 10px 25px;
+  }
+  #benefits {
+    position:relative;
+  }
+  #Contact {
+    position: relative;
+    z-index: 1;
   }
 
 }
