@@ -108,7 +108,7 @@ body hr {
 
 /* NAVBAR*/
 .menu-icon {
-  font-size: 45px;
+  font-size: 55px;
   color: var(--color-light);
 }
 
@@ -476,14 +476,14 @@ body hr {
     flex-direction: column;
     list-style: none;
     gap: 20px;
-    padding: 30px;
+    padding: 40px 30px;
     align-content: center;
     background-color: var(--color-dark);
   }
 
   .nav-options.active {
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.9s ease;
   }
   .link-contact a {
     margin: 0px;
