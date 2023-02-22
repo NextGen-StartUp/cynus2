@@ -71,12 +71,14 @@
     .blogCard {
         flex-direction: column;
     }
+
     .blogCard img {
         width: 100%;
         margin-bottom: 20px;
     }
 
 }
+
 @media screen and (max-width: 900px) {
     .workCard {
         width: 100%;

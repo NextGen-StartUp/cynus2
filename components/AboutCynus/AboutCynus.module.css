@@ -1,28 +1,32 @@
  .Imgbox {
-    width: auto;
-    border-right: 1px solid rgba(255, 255, 255, 0.247);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 15px;
-}
-.textbox {
-    text-align: center;
-    
-}
-@media screen and (max-width: 900px) {
-    .Imgbox {
-        border-right: 0px solid rgba(255, 255, 255, 0.247);
-        padding-right: 0px;
-    }
-    .textbox {
-        text-align: left;
-        width: 100%;
-        padding: 20px 2px;
-    }
-    .textbox h1 {
-        text-align: center;
-        padding-bottom: 10px;
-    }
-}
+     width: auto;
+     border-right: 1px solid rgba(255, 255, 255, 0.247);
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-right: 15px;
+ }
+
+ .textbox {
+     text-align: center;
+
+ }
+
+ @media screen and (max-width: 900px) {
+     .Imgbox {
+         border-right: 0px solid rgba(255, 255, 255, 0.247);
+         padding-right: 0px;
+     }
+
+     .textbox {
+         text-align: left;
+         width: 100%;
+         padding: 20px 2px;
+     }
+
+     .textbox h1 {
+         text-align: center;
+         padding-bottom: 10px;
+     }
+ }
