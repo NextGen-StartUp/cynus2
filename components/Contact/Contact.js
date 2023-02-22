@@ -70,11 +70,9 @@ function Contact() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <EmailIcon sx={{ fontSize: "100px", margin: 1 }} />
+                        <EmailIcon className={styles.FooterIcon} />
                       </a>
-                      <h1></h1>
                     </div>
-
                     <div className="text-center contact-icon-hover">
                       <h5>LinkedIn</h5>
                       <a
@@ -82,7 +80,7 @@ function Contact() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <LinkedInIcon sx={{ fontSize: "100px", margin: 1 }} />
+                        <LinkedInIcon className={styles.FooterIcon} />
                       </a>
                     </div>
                   </div>

@@ -43,18 +43,15 @@ function Benefits() {
         <div className="card-Image">
           <Image
             h="190px"
-            w="52%"
+            w="54%"
             objectFit="cover"
             src="../../image/computer-desktop.png"
             className="align-center"
             alt="Sign for High Ergonomics"
           />
         </div>
-        <div className="spacer-small"></div>
         <div>
-          <div className="spacer-medium"></div>
           <h5>High Ergonomics</h5>
-          <div className="spacer-small"></div>
           <h6>
             Startup Accelerator: <br />
             Sphere One is a round surface and location independent device.
@@ -95,26 +92,21 @@ function Benefits() {
             </div>
           </CardAnimation>
     )}
-
-
           <div className="border-side full-height"></div>
            {isMobile ? (
       <div className="card">
         <div>
           <Image
             h="190px"
-            w="52%"
+            w="54%"
             objectFit="cover"
             src="../../image/time-to-market.png"
             className="align-center"
             alt="Sign for increased Productivity"
           />
         </div>
-        <div className="spacer-small"></div>
         <div>
-          <div className="spacer-medium"></div>
           <h5>Increased Productivity</h5>
-          <div className="spacer-small"></div>
           <h6>
             With gesture control and both smart and intuitive input,
             Sphere One increases the user&apos;s efficiency in the
@@ -157,18 +149,15 @@ function Benefits() {
         <div>
           <Image
             h="190px"
-            w="52%"
+            w="54%"
             objectFit="cover"
             src="../../image/multiple.png"
             className="align-center"
             alt="Sign for One-For-All Computers"
           />
         </div>
-        <div className="spacer-small"></div>
         <div>
-          <div className="spacer-medium"></div>
           <h5>One-For-All Computers</h5>
-          <div className="spacer-small"></div>
           <h6>
             Sphere One is a Human Interface Device (HID), which forms the
             interface for human-PC interaction. With this standard, Sphere
@@ -217,18 +206,15 @@ function Benefits() {
         <div>
           <Image
             h="190px"
-            w="52%"
+            w="54%"
             objectFit="cover"
             src="../../image/road-sign.png"
             className="align-center"
             alt="Sign for More Flexibility"
           />
         </div>
-        <div className="spacer-small"></div>
         <div>
-          <div className="spacer-medium"></div>
           <h5>More Flexibility</h5>
-          <div className="spacer-small"></div>
           <h6>
             Sphere One enables three-axis navigation in &quot;space&quot;
             and is therefore ideal for 3D applications. This control can

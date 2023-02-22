@@ -54,6 +54,11 @@
     border-top: 1px solid rgba(12, 12, 12, 0.349);
 }
 
+.FooterIcon {
+    font-size: 100px;
+    margin: 1px;
+}
+
 
 /* MOBILE VIEW */
 
@@ -83,7 +88,7 @@
     }
 
     .drawerBody h5{
-        font-size: 15px;
+        font-size: 13px;
        }
 
     .blogCard {
@@ -101,5 +106,12 @@
     .drawerCloseButton {
         border: 1px solid black;
         margin: 50px 60px 0px 0px;
+    }
+
+    .FooterIcon  {
+        font-size: 55px;
+    }
+    .drawerFooter h5 {
+        font-size: 23.4px;
     }
 }

@@ -522,7 +522,7 @@ body hr {
   
   .card h6 {
     font-size: 20px;
-    padding: 15px;
+    padding: 5px 15px 20px 15px;
   }
   .card h5 {
     padding: 15px;
@@ -571,5 +571,6 @@ body hr {
   }
  .spacer-medium {
   display: none;
- }
+  }
+
 }
