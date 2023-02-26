@@ -6,7 +6,11 @@ import LandingPage from "../components/LandingPage/LandingPage";
 import MileStones from "../components/Milestones/Milestones";
 import WhoWeAre from "../components/WhoWeAre/WhoWeAre";
 
+
 export default function Home() {
+
+
+
   return (
     <>
       <div className="background-dark">

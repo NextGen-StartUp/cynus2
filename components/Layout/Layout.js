@@ -2,14 +2,30 @@ import Link from "next/link";
 import Footer from "../Layout/Footer";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Layout.module.css";
 import UseScroll from "../Scrollindicator/UseScroll";
+import { useRouter } from 'next/router';
+
 
 export function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
+  const router = useRouter();
+
+  useEffect(() => {
+    // Add the click event listener to navigation links here
+    document.querySelectorAll('nav Link').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetUrl = this.getAttribute('href');
+        router.push(targetUrl);
+      });
+    });
+  }, []);
+
 
   return (
     <>
@@ -47,8 +63,8 @@ export function NavBar() {
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
-              <Link href="/#WhoWeAre" data-link-alt="WhoWeAre">
-                <span>WhoWeAre</span>
+              <Link href="/#WhoWeAre" data-link-alt="Who We Are">
+                <span>Who We Are</span>
               </Link>
             </li>
             <li onClick={closeMobileMenu}>

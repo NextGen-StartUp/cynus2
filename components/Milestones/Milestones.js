@@ -3,7 +3,8 @@ import styles from "./Milestones.module.css";
 import FadeInWhenVisible from "../Animations/FadeInWhenVisible";
 import CardAnimation from "../Animations/CardAnimation";
 import CardAnimationTwo from "../Animations/CardAnimationTwo";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
+
 
 function MileStones({}) {
 
@@ -22,10 +23,13 @@ function MileStones({}) {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
   
   return (
+    
     <section id="Milestones" className="">
-   <div className="spacer-medium"></div>
+    
+   <div className="spacer-medium panel"></div>
    <div className="spacer-medium"></div>
    <div className="spacer-small"></div>
       <div className="headlines">
@@ -128,7 +132,9 @@ function MileStones({}) {
       </CardAnimationTwo>
     )}
       </div>  
+     
     </section>
+ 
   );
 }
 

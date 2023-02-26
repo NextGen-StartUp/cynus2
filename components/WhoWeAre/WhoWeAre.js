@@ -7,7 +7,7 @@ export default function WhoWeAre({}) {
   return (
     <section id="WhoWeAre" className="OverlappEffect" >
       <div className="full-height background-dark padding-top">
-        <div className="grid-container2 flex-center">
+        <div className="grid-container2 flex-center ">
           <div className="about-info">
               <div className="grid-line full-height">
             <FadeInWhenVisible>

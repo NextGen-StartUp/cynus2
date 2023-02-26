@@ -4,7 +4,8 @@ import FadeInWhenVisible from "../Animations/FadeInWhenVisible";
 import CardAnimationTwo from "../Animations/CardAnimationTwo";
 import CardAnimationthree from "../Animations/CardAnimationthree";
 import CardAnimationfour from "../Animations/CardAnimationfour";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useEffect } from 'react';
 
 function Benefits() {
   const [isMobile, setIsMobile] = useState(false);
@@ -23,8 +24,9 @@ function Benefits() {
     };
   }, []);
 
+
   return (
-    <section id="benefits" className="OverlappSection">
+    <section id="benefits" className="">
       <div className="background-light">
         <FadeInWhenVisible>
           <div className="spacer-medium"></div>
