@@ -10,7 +10,7 @@ export default function CardAnimation({ children }) {
             transition={{ duration: 1 }}
             variants={{
                 visible: { x: 0, opacity: 1 },
-                hidden: { x: 100, opacity: 0 }
+                hidden: { x: 50, opacity: 0 }
             }}>
             {children}
         </motion.div>
