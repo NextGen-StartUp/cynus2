@@ -12,7 +12,7 @@ function Benefits() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(window.innerWidth < 1025);
     };
 
     handleResize();

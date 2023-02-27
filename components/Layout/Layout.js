@@ -34,7 +34,7 @@ export function NavBar() {
         <Link
           className={styles.logo}
           data-link-alt="Landing Page"
-          href="#LandingPage"
+          href="/#LandingPage"
         >
           {"CYNUS"}
         </Link>

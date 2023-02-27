@@ -21,6 +21,7 @@ function Impressum() {
           Inhalte umgehend entfernen.
         </h6>
         <div className="spacer-medium"></div>
+        <div className="spacer-small"></div>
         <h5>Haftung für Links:</h5>
         <div className="spacer-small"></div>
         <h6>
@@ -37,6 +38,7 @@ function Impressum() {
           umgehend entfernen.
         </h6>
         <div className="spacer-medium"></div>
+        <div className="spacer-small"></div>
         <h5>Urheberrecht:</h5>
         <div className="spacer-small"></div>
         <h6>
@@ -54,12 +56,15 @@ function Impressum() {
           werden wir derartige Inhalte umgehend entfernen.
         </h6>
         <div className="spacer-medium"></div>
+        <div className="spacer-small"></div>
         <h5>Angaben gemäß §5 TMG:</h5>
         <h6>Delon Wagner</h6>
         <div className="spacer-medium"></div>
+        <div className="spacer-small"></div>
         <h5>Email:</h5>
         <h6>info@cynus.de</h6>
         <div className="spacer-medium"></div>
+        <div className="spacer-small"></div>
         <h5>Adresse:</h5>
         <h6>Bahnhofstr. 35a</h6>
         <h6>79206 Breisach am Rhein</h6>
