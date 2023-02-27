@@ -6,9 +6,9 @@ function WhileHover({ children }) {
             className='box'
             whileHover={{
                 cursor: 'pointer',
-                scale: 1.05,
-                backgroundColor: 'var(--color-dark)',
-                transition: { duration: 0.3 },
+                scale: 1.15,
+                backgroundColor: 'black',
+                transition: { duration: 0.2 },
             }}
         >
             {children}

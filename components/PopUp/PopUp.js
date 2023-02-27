@@ -1,5 +1,6 @@
 import { Button } from '@chakra-ui/react';
 import { useState } from 'react';
+import WhileHover from '../Animations/WhileHover';
 
 const PopUp = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -17,7 +18,9 @@ const PopUp = () => {
       ist uns wichtig.</p>
     </div>
     <div className="drawer-header">
+    <WhileHover>
       <Button onClick={handleClose}>Close</Button>
+      </WhileHover>
     </div>
   </div>
 );

@@ -3,8 +3,6 @@ import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FadeInWhenVisible from "../Animations/FadeInWhenVisible";
 import {
-  Box,
-  Image,
   Button,
   useDisclosure,
   Drawer,
@@ -16,7 +14,6 @@ import {
   DrawerFooter,
 } from "@chakra-ui/react";
 import WhileHover from "../Animations/WhileHover";
-import LinkedIn from "@mui/icons-material/LinkedIn";
 import React from "react";
 
 function Contact() {
@@ -56,7 +53,8 @@ function Contact() {
                   <h5>
                     We&apos;d love to hear from you! Whether you have a
                     question, a suggestion, or just want to say hi, our doors
-                    are always open. Let&apos;s connect and make something great happen together!
+                    are always open. Let&apos;s connect and make something great
+                    happen together!
                   </h5>
                 </DrawerBody>
                 <DrawerFooter className={styles.drawerFooter}>
