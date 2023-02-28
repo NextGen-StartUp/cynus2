@@ -174,7 +174,8 @@
 @media (max-width: 1200px) {
 
 .navLeftDotContainer {
-  margin-left: -10%;
+  margin-left: -14%;
+  gap: 5px;
   }
 }
 
