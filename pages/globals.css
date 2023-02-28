@@ -539,6 +539,13 @@ body hr {
     margin: 0px;
   }
 
+  #nav-bar-dot {
+    margin-left: -30px;
+  }
+
+  #navbar-text {
+    font-size: 15px;
+  }
   .full-height {
     height: 100%;
   }
@@ -579,33 +586,32 @@ body hr {
     padding: 15px;
   }
 
-  #nav-bar-dot {
-    display: none;
-  }
-
-  #navbar-dot {
-    display: none;
-  }
   .padding-top {
     padding-top: 20px
   }
+
   .padding-top2 {
     padding-top: 100px;
   }
+
   .text-center {
     font-size: 15px;
   }
+
   .headlines {
     padding-top: 0px;
   }
+
   .grid-line {
     border-right: 0px solid rgba(255, 255, 255, 0.247);
     padding-right: 0px;
   }
+
   .sphere {
     padding: 5px;
     margin: 0px;
   }
+
   .card {
     padding: 5px;
     text-align: center;
@@ -613,31 +619,39 @@ body hr {
     height: auto;
     margin: 0px;
   }
+
   .footer-section h4 {
     font-size: 12px;
     padding: 1px;
   }
+
   .flex-row-footer {
     padding: 0px 5px 0px 5px;
   }
+
  .spacer-medium {
   display: none;
   }
+
   .drawer-content {
     font-size: 11px;
   }
+
   .full-height2 {
     display: flex;
     justify-content: center;
     width: auto;
   }
+
   .div-box {
     width: 100%;
     padding: 10px 25px;
   }
+
   #benefits {
     position:relative;
   }
+
   #Contact {
     position: relative;
     z-index: 1;

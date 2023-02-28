@@ -42,7 +42,7 @@ export function NavBar() {
           <div id="nav-bar-dot">
             <h1>•</h1>
           </div>
-          <div id="navbar-dot" className={styles.animationContainer}>
+          <div id="navbar-text" className={styles.animationContainer}>
             <div className={`${styles.word} ${styles.w1}`}>Harder</div>
             <div className={`${styles.word} ${styles.w2}`}>Better</div>
             <div className={`${styles.word} ${styles.w3}`}>Faster</div>

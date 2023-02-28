@@ -178,12 +178,15 @@
   }
 }
 
-@media (max-width: 767px) {
-
-  .animationContainer {
-    display: none;
+@media (max-width: 950px) {
+.header > a {
+  font-size: 50px;
+  margin-left: 0px;
+  height: 85px;
   }
+}
 
+@media (max-width: 767px) {
   .navHover span {
     transition: none;
   }
