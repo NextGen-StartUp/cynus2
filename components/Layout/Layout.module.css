@@ -187,6 +187,12 @@
 }
 
 @media (max-width: 767px) {
+  
+  .word {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
   .navHover span {
     transition: none;
   }
