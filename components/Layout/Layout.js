@@ -5,14 +5,14 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useEffect, useState } from "react";
 import styles from "./Layout.module.css";
 import UseScroll from "../Scrollindicator/UseScroll";
-import { Router } from 'next/router';
+import { useRouter } from 'next/router';
 
 export function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const router = Router();
+  const router = useRouter();
 
   useEffect(() => {
     // Add the click event listener to navigation links here
