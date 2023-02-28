@@ -122,7 +122,6 @@ body hr {
 }
 
 .link-contact a {
-  
   border-radius: 14px;
   margin: 0px 22px 0px 80px;
   background-color: var(--color-light);
@@ -484,7 +483,16 @@ body hr {
 
 
 /* MOBILE VIEW */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1450px) {
+    .nav-options {
+      gap: 20px;
+    }
+    .link-contact a {
+      margin: 0px 22px 0px 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {
 
   :root {
     font-size: 13px;

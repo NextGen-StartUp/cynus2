@@ -33,7 +33,7 @@ function Benefits() {
           <div className="spacer-medium"></div>
           <div className="spacer-small"></div>
           <div className="headlines">
-            <h5 className="text-left">Benefits</h5>
+            <h5 className="">Benefits</h5>
           </div>
         </FadeInWhenVisible>
         <div className="full-height2 max-height2">

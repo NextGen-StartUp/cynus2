@@ -25,10 +25,10 @@ export default function WhoWeAre({}) {
               </FadeInWhenVisible>
               <FadeInWhenVisible>
                 <div className="spacer-small"></div>
-                <h4>Our team consists of three founders</h4>
+                <h1 className="text-center">The founders</h1>
                 <div className="spacer-small"></div>
                 <FadeInWhenVisible>
-                  <h1>Delon:</h1>
+                  <h2>Delon:</h2>
                 </FadeInWhenVisible>
                 <h2>
                   With his deep background in electronics development, Delon is
@@ -39,7 +39,7 @@ export default function WhoWeAre({}) {
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
-                <h1>Konstantin:</h1>{" "}
+                <h2>Konstantin:</h2>{" "}
               </FadeInWhenVisible>
 
               <FadeInWhenVisible>
@@ -54,7 +54,7 @@ export default function WhoWeAre({}) {
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
-                <h1>Daniel:</h1>{" "}
+                <h2>Daniel:</h2>{" "}
               </FadeInWhenVisible>
 
               <FadeInWhenVisible>

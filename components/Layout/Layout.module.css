@@ -170,6 +170,14 @@
   -webkit-animation: w5anim 14s infinite;
           animation: w5anim 14s infinite;
 }
+
+@media (max-width: 1200px) {
+
+.navLeftDotContainer {
+  margin-left: -10%;
+  }
+}
+
 @media (max-width: 767px) {
 
   .animationContainer {

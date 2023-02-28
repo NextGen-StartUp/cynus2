@@ -52,31 +52,11 @@ export function NavBar() {
         </div>
         <nav className={styles.navHover}>
           <ul className={click ? "nav-options active" : "nav-options"}>
-            <li onClick={closeMobileMenu}>
-              <Link href="/#AboutCynus" data-link-alt="About">
-                <span>About</span>
-              </Link>
-            </li>
-            <li onClick={closeMobileMenu}>
-              <Link href="/#Milestones" data-link-alt="MileStones">
-                <span>MileStones</span>
-              </Link>
-            </li>
-            <li onClick={closeMobileMenu}>
-              <Link href="/#WhoWeAre" data-link-alt="Who We Are">
-                <span>Who We Are</span>
-              </Link>
-            </li>
-            <li onClick={closeMobileMenu}>
-              <Link href="/#benefits" data-link-alt="Benefits">
-                <span>Benefits</span>
-              </Link>
-            </li>
-            <li className="link-contact" onClick={closeMobileMenu}>
-              <Link href="/#Contact" data-link-alt="Contact">
-                <span>Contact</span>
-              </Link>
-            </li>
+            <li onClick={closeMobileMenu}><Link href="/#AboutCynus" data-link-alt="About"><span>About</span></Link></li>
+            <li onClick={closeMobileMenu}><Link href="/#Milestones" data-link-alt="MileStones"><span>MileStones</span></Link></li>
+            <li onClick={closeMobileMenu}><Link href="/#WhoWeAre" data-link-alt="Who We Are"><span>Who We Are</span></Link></li>
+            <li onClick={closeMobileMenu}><Link href="/#benefits" data-link-alt="Benefits"><span>Benefits</span></Link></li>
+            <li className="link-contact" onClick={closeMobileMenu}><Link href="/#Contact" data-link-alt="Contact"><span>Contact</span></Link></li>
           </ul>
           <div className="mobile-menu" onClick={handleClick}>
             {click ? (
