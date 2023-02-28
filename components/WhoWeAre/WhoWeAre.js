@@ -25,7 +25,7 @@ export default function WhoWeAre({}) {
               </FadeInWhenVisible>
               <FadeInWhenVisible>
                 <div className="spacer-small"></div>
-                <h1 className="text-center">The founders</h1>
+                <h1 className="text-center">The founders</h1><h4>from the right:</h4>
                 <div className="spacer-small"></div>
                 <FadeInWhenVisible>
                   <h2>Delon:</h2>
@@ -80,8 +80,8 @@ export default function WhoWeAre({}) {
               >
                 <Image
                   className="sphere"
-                  src="../image/Quadrat.png"
-                  alt="founders"
+                  src="../../image/founders-Delon-Konstantin-Daniel.png"
+                  alt="three founders Delon Konstantin Daniel"
                   title="The Founders"
                   placeholder="blur"
                 />
