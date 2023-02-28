@@ -15,11 +15,11 @@ export default function Home() {
     <>
       <div className="background-dark">
         <Head>
-          <title>CYNUS</title>
+          <title>CYNUS - Fully Flexible Configurable PC Mouse for Increased Productivity</title>
           <meta charset="UTF-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <meta name="description" content="THE FIRST FULLY FLEXIBLE CONFIGURABLE OPEN SPACE PC MOUSE"/>
-          <meta name="keywords" content="3D Maus, 3D Mouse, HID, Computermaus, "/>
+          <meta name="keywords" content="3D Maus, 3D Mouse, HID, Computermaus, High Ergonomics, Increased Productivity, One-For-All Computers, Flexibility"/>
           <meta name="author" content="Delon Wagner"/>
           <link rel="icon" href="/favicon-16x16.png" />
         </Head>
