@@ -43,10 +43,10 @@ export function NavBar() {
             <h1>•</h1>
           </div>
           <div id="navbar-text" className={styles.animationContainer}>
-            <div className={`${styles.word} ${styles.w1}`}>Harder</div>
-            <div className={`${styles.word} ${styles.w2}`}>Better</div>
-            <div className={`${styles.word} ${styles.w3}`}>Faster</div>
-            <div className={`${styles.word} ${styles.w4}`}>Stronger</div>
+            <div className={`${styles.word} ${styles.w1}`}>Configurable</div>
+            <div className={`${styles.word} ${styles.w2}`}>Open space</div>
+            <div className={`${styles.word} ${styles.w3}`}>Intuitive use</div>
+            <div className={`${styles.word} ${styles.w4}`}>Fully flexible</div>
             <div className={`${styles.word} ${styles.w5}`}>Cynus</div>
           </div>
         </div>
