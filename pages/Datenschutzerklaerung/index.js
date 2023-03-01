@@ -8,37 +8,46 @@ function Datenschutzerklaerung() {
         <div className="spacer-small"></div>
         <div className="spacer-medium"></div>
         <h5>Cookies</h5>
-        <h6>Wir verwenden auf unserer Website keine Cookies.</h6>
+        <h6>
+          Wir verwenden auf unserer Website Vercel Analytics, um unsere Website
+          zu verbessern und unser Online-Angebot für Sie attraktiver zu
+          gestalten. Vercel Analytics ist ein Webanalyse-Service, der von
+          Vercel, Inc. bereitgestellt wird. Vercel Analytics verwendet Cookies,
+          um Ihre Nutzung unserer Website zu analysieren und um Reports über die
+          Websiteaktivitäten zusammenzustellen.
+        </h6>
         <div className="spacer-small"></div>
         <div className="spacer-medium"></div>
-        <h5>Personenbezogenen Daten</h5>
+        <h5></h5>
         <h6>
-          Wir erheben und verarbeiten keine personenbezogenen Daten von Ihnen.
+          Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert
+          werden und Informationen über Ihre Nutzung unserer Website enthalten.
+          Die durch den Cookie erzeugten Informationen über Ihre Nutzung unserer
+          Website werden in der Regel an einen Server von Vercel übertragen und
+          dort gespeichert.
         </h6>
         <div className="spacer-medium"></div>
         <div className="spacer-small"></div>
-        <h5>Daten Weitergabe</h5>
-        <h6>Wir geben keine Daten an Dritte weiter.</h6>
-        <div className="spacer-medium"></div>
-        <div className="spacer-small"></div>
-        <h5>Technische Informationen </h5>
+        <h5></h5>
         <h6>
-          Wenn Sie unsere Website besuchen, speichern unsere Server automatisch
-          bestimmte technische Informationen, wie zum Beispiel Ihre IP-Adresse,
-          den Browsertyp, das Betriebssystem und die Uhrzeit des Zugriffs. Diese
-          Informationen werden ausschließlich zur technischen Überwachung und
-          Verbesserung der Leistung unserer Website genutzt.{" "}
+          Die durch den Cookie erzeugten Informationen über Ihre Nutzung unserer
+          Website werden in der Regel an einen Server von Vercel in den USA
+          übertragen und dort gespeichert. Vercel Analytics nutzt diese
+          Informationen, um Ihre Nutzung unserer Website auszuwerten und um
+          weitere mit der Websitenutzung und der Internetnutzung verbundene
+          Dienstleistungen gegenüber uns zu erbringen.
         </h6>
         <div className="spacer-medium"></div>
         <div className="spacer-small"></div>
-        <h5>Ihre Rechte </h5>
+        <h5></h5>
         <h6>
-          Da wir keine personenbezogenen Daten von Ihnen sammeln oder
-          verarbeiten, stehen Ihnen gemäß den Bestimmungen der DSGVO keine
-          spezifischen Rechte zu. Sollten Sie jedoch Fragen zum Datenschutz
-          haben oder sich über die von uns auf unserer Website getroffenen
-          Maßnahmen informieren wollen, können Sie uns jederzeit kontaktieren.{" "}
+          Die im Rahmen von Vercel Analytics von Ihrem Browser übermittelte
+          IP-Adresse wird nicht mit anderen Daten von Vercel zusammengeführt.
         </h6>
+        <div className="spacer-medium"></div>
+        <div className="spacer-small"></div>
+        <h5></h5>
+        <h6></h6>
         <div className="spacer-medium"></div>
         <div className="spacer-small"></div>
         <h5>Änderungen </h5>

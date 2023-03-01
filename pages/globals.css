@@ -136,6 +136,11 @@ body hr {
   gap: 20px;
 }
 
+.flex-row3 {
+  display: flex;
+  flex-direction: row;
+}
+
 .flex-row2 {
   display: flex;
   flex-wrap: wrap;
@@ -193,7 +198,6 @@ body hr {
 
 .align-left {
   justify-content: center;
-  
 }
 
 .align-center {
@@ -220,6 +224,30 @@ body hr {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.max-height {
+  max-height: 80px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonCookies {
+  /* margin: 5px 15px !important;
+  padding: 9px !important;
+  height: 25px; */
+}
+.cookieWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.cookieWrapper span{
+padding: 0px;
+}
+
 
 .full-width {
   display: flex;

@@ -20,8 +20,8 @@ export default function WhoWeAre({}) {
                 <h2>
                   By transforming the human machine interaction, Cynus pushes
                   the boundaries of how humans collaborate with devices and
-                  drives performance to new levels.{" "}
-                </h2>{" "}
+                  drives performance to new levels.
+                </h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible>
                 <div className="spacer-small"></div>
@@ -35,11 +35,11 @@ export default function WhoWeAre({}) {
                   responsible for turning our ideas into working prototypes.
                   Thanks to Delon we are always able to validate our ideas
                   quickly.
-                </h2>{" "}
+                </h2>
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
-                <h2>Konstantin:</h2>{" "}
+                <h2>Konstantin:</h2>
               </FadeInWhenVisible>
 
               <FadeInWhenVisible>
@@ -49,12 +49,12 @@ export default function WhoWeAre({}) {
                   Konstantin&apos;s interest in Software Development has led him
                   to develop outstanding software solutions on several
                   occasions. In combination with his understanding of hardware
-                  Konstantin helps us bring our products to life.{" "}
+                  Konstantin helps us bring our products to life.
                 </h2>{" "}
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
-                <h2>Daniel:</h2>{" "}
+                <h2>Daniel:</h2>
               </FadeInWhenVisible>
 
               <FadeInWhenVisible>

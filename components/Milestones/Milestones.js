@@ -33,7 +33,7 @@ function MileStones({}) {
         </FadeInWhenVisible>
       </div>
 
-      <div className="full-height2 background-light max-height">
+      <div className="full-height2 background-light">
         {isMobile ? (
           <div className="card">
             <div className="card-Img">

@@ -7,23 +7,11 @@ import styles from "./Layout.module.css";
 import UseScroll from "../Scrollindicator/UseScroll";
 import { useRouter } from 'next/router';
 
+
 export function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const router = useRouter();
-
-  useEffect(() => {
-    // Add the click event listener to navigation links here
-    document.querySelectorAll('nav Link').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const targetUrl = this.getAttribute('href');
-        router.push(targetUrl);
-      });
-    });
-  }, []);
 
 
   return (
