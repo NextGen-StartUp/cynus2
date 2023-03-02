@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         <MyCookieConsent />
         
           <Component {...pageProps} />
-          <Analytics />
+  
         </Layout>
       </DataContextProvider>
     </ChakraProvider>
