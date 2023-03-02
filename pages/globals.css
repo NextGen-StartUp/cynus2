@@ -232,11 +232,8 @@ body hr {
   justify-content: center;
   align-items: center;
 }
-.buttonCookies {
-  /* margin: 5px 15px !important;
-  padding: 9px !important;
-  height: 25px; */
-}
+
+
 .cookieWrapper {
   display: flex;
   flex-direction: column;

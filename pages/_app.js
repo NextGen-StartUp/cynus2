@@ -3,14 +3,13 @@ import Layout from '../components/Layout/Layout'
 import { ChakraProvider } from '@chakra-ui/react'
 import { DataContextProvider } from '../context/DataContext'
 import MyCookieConsent from '../components/MyCookieConsent/MyCookieConsent'
-import { useEffect } from 'react'
 import { Analytics } from '@vercel/analytics/react';
-import { VercelProvider } from "@vercel/analytics";
-import { AppProps } from "next/app";
-
+import { useCookies } from 'react-cookie';
 
 function MyApp({ Component, pageProps }) {
-  
+  const [cookies] = useCookies(['Website-Analytics']);
+  const isAnalyticsAccepted = cookies['Website-Analytics'] === 'true';
+
 
 
 
@@ -18,7 +17,7 @@ function MyApp({ Component, pageProps }) {
     
     <ChakraProvider>
       <DataContextProvider>
-      <Analytics />
+      {isAnalyticsAccepted && <Analytics />}
         <Layout>
         <MyCookieConsent />
         
