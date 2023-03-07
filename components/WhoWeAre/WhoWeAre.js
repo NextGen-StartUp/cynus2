@@ -15,7 +15,7 @@ export default function WhoWeAre({}) {
                 </div>
               </FadeInWhenVisible>
 
-              <div className="spacer-small"></div>
+              <div className="spacer-medium"></div>
               <FadeInWhenVisible>
                 <h2>
                   By transforming the human machine interaction, Cynus pushes
@@ -24,25 +24,14 @@ export default function WhoWeAre({}) {
                 </h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible>
-                <div className="spacer-small"></div>
-                <h1 className="text-center">The founders</h1><h4>from the right:</h4>
+                <div className="spacer-medium"></div>
+                <FadeInWhenVisible>
+                <h1 className="text-center">The founders</h1>
+                </FadeInWhenVisible>
                 <div className="spacer-small"></div>
                 <FadeInWhenVisible>
-                  <h2>Delon:</h2>
-                </FadeInWhenVisible>
-                <h2>
-                  With his deep background in electronics development, Delon is
-                  responsible for turning our ideas into working prototypes.
-                  Thanks to Delon we are always able to validate our ideas
-                  quickly.
-                </h2>
-              </FadeInWhenVisible>
-              <div className="spacer-small"></div>
-              <FadeInWhenVisible>
-                <h2>Konstantin:</h2>
-              </FadeInWhenVisible>
-
-              <FadeInWhenVisible>
+                  <h2>Konstantin:</h2>
+                
                 <h2>
                   Konstantin is currently finalizing his PhD in Micro System
                   Technologies. Still in the early stages of his career
@@ -50,15 +39,13 @@ export default function WhoWeAre({}) {
                   to develop outstanding software solutions on several
                   occasions. In combination with his understanding of hardware
                   Konstantin helps us bring our products to life.
-                </h2>{" "}
+                </h2>
+                </FadeInWhenVisible>
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
                 <h2>Daniel:</h2>
-              </FadeInWhenVisible>
-
-              <FadeInWhenVisible>
-                {" "}
+            
                 <h2>
                   Daniel completes the skillset of our founding team and brings
                   in the economic perspective, essential to validate which
@@ -67,6 +54,17 @@ export default function WhoWeAre({}) {
                   industrial engineering and a master&apos;s degree in
                   international business, specialized in entrepreneurship and
                   SME management.
+                </h2>
+              </FadeInWhenVisible>
+              <div className="spacer-small"></div>
+              <FadeInWhenVisible>
+                <h2>Delon:</h2>
+      
+                <h2>
+                  With his deep background in electronics development, Delon is
+                  responsible for turning our ideas into working prototypes.
+                  Thanks to Delon we are always able to validate our ideas
+                  quickly.
                 </h2>
               </FadeInWhenVisible>
             </div>

@@ -81,7 +81,7 @@ body h4 {
   color: #ffffff99;
 }
 body h5 {
-  font-size: 23.4px;
+  font-size: 25.5px;
 }
 
 body h6 {
@@ -103,7 +103,7 @@ body hr {
   
 }
 .padding-top {
-  padding-top: 90px;
+  padding-top: 0px;
 }
 
 /* NAVBAR*/
@@ -404,20 +404,21 @@ padding: 0px;
   width: 100%;
   height: 1.2rem;
 }
+
 .spacer-medium  {
   width: 100%;
   height: 2.8rem;
 }
 
+.spacer-large {
+  width: 100%;
+  height: 8rem;
+}
+
 .headlines {
   display: flex;
-  width: 100%;
-  height: 4.8rem;
-  padding-right: 2rem;
-  padding-left: 2.5rem;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 18px;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 .text-container {

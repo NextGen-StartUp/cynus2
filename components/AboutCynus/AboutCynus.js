@@ -7,6 +7,7 @@ function AboutCynus({}) {
   return (
     <section id="AboutCynus">
       <div className="background-dark padding-top">
+      <div className="spacer-large"></div>
         <div className="grid-container flex-center full-height">
           <CardAnimation>
             <div className={styles.Imgbox}>

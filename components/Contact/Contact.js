@@ -24,7 +24,7 @@ function Contact() {
       <div className="full-height background-dark flex-center">
         <div className="padding-top2">
           <h3 className="text-center">
-            GET IN TOUCH AND BEGINN TO REVOLUTIONISE
+            GET IN TOUCH AND BEGIN TO REVOLUTIONISE
           </h3>
           <h3 className="text-center">THE WAY WE USE A COMPUTER MOUSE</h3>
         </div>

@@ -29,9 +29,7 @@ function Benefits() {
     <section id="benefits" className="">
       <div className="background-light">
         <FadeInWhenVisible>
-          <div className="spacer-medium"></div>
-          <div className="spacer-medium"></div>
-          <div className="spacer-small"></div>
+          <div className="spacer-large"></div>
           <div className="headlines">
             <h5 className="">Benefits</h5>
           </div>

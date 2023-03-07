@@ -24,9 +24,7 @@ function MileStones({}) {
 
   return (
     <section id="Milestones" className="">
-      <div className="spacer-medium panel"></div>
-      <div className="spacer-medium"></div>
-      <div className="spacer-small"></div>
+    <div className="spacer-large"></div>
       <div className="headlines">
         <FadeInWhenVisible>
           <h5 className="text-left">Milestones</h5>
