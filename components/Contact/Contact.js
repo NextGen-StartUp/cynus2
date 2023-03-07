@@ -15,6 +15,7 @@ import {
 } from "@chakra-ui/react";
 import WhileHover from "../Animations/WhileHover";
 import React from "react";
+import AnimatedTextCharacter from "../Animations/AnimatedTextCharacter ";
 
 function Contact() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -23,10 +24,10 @@ function Contact() {
     <section id="Contact" className="OverlappSection2">
       <div className="full-height background-dark flex-center">
         <div className="padding-top2">
-          <h3 className="text-center">
-            GET IN TOUCH AND BEGIN TO REVOLUTIONISE
-          </h3>
-          <h3 className="text-center">THE WAY WE USE A COMPUTER MOUSE</h3>
+       
+        <AnimatedTextCharacter text="GET IN TOUCH AND BEGIN TO REVOLUTIONISE" className="text-center mobile-size"/>
+        <AnimatedTextCharacter text="THE WAY WE USE A COMPUTER MOUSE" delay={0.9} className="text-center mobile-size"/>
+     
         </div>
         <div className="spacer-medium"></div>
         <FadeInWhenVisible>
