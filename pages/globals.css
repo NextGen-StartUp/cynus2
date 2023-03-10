@@ -625,6 +625,7 @@ padding: 0px;
 
   .padding-top2 {
     padding-top: 100px;
+    overflow: hidden;
   }
 
   .text-center {

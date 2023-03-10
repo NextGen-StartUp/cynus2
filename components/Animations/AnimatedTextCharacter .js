@@ -51,10 +51,10 @@ const AnimatedTextCharacter = ({ text, delay = 0 }) => {
         <motion.span variants={child} key={index}
         style={{ fontSize: "clamp(1.1rem, 3vw, 3rem)", // default font size
             // set different font sizes based on screen width
-            "@media screen and (min-width: 600px)": {
+            "@media screen and (minWidth: 600px)": {
               fontSize: "clamp(2rem, 4vw, 4rem)",
             },
-            "@media screen and (min-width: 900px)": {
+            "@media screen and (minWidth: 900px)": {
               fontSize: "clamp(2.5rem, 5vw, 5rem)",
             },
           }}
