@@ -65,7 +65,7 @@ function LandingPage() {
     )}
         </div>
        <div className={styles.videoContainer}>
-        <video
+        {/* <video
           className={styles.videotransition}
           
           playsInline
@@ -73,6 +73,11 @@ function LandingPage() {
           alt="All the devices"
           src="../../videos/Intro_1080LL.mp4"
           ref={videoEl}
+        /> */}
+        <img 
+          src='../../image/Mouse-Cynus.PNG'
+          alt="All the devices"
+          className={styles.videotransition}
         />
        </div>
        </div>
