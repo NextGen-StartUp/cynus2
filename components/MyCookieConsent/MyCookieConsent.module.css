@@ -1,0 +1,18 @@
+.buttonCookies {
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+  }
+  
+  .buttonCookies:hover {
+    transform: scale(1.1) !important;
+  }
+  
+  .declineButtonCookies {
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+  }
+  
+  .declineButtonCookies:hover {
+    transform: scale(1.1) !important; 
+  }
+  .linkUnderline {
+    text-decoration: underline;
+  }

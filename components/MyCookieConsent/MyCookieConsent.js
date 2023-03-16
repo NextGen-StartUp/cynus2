@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CookieConsent from "react-cookie-consent";
+import styles from "./MyCookieConsent.module.css";
 
 const MyCookieConsent = () => {
   return (
@@ -30,7 +31,8 @@ const MyCookieConsent = () => {
         }}
         expires={7}
         buttonWrapperClasses="flex-row align-center btnwrappercookies"
-        buttonClasses="buttonCookies"
+        buttonClasses={`${styles.buttonCookies} buttonCookies`}
+        declineButtonClasses={`${styles.declineButtonCookies} declineButtonCookies`}
         containerClasses="cookieWrapper"
         contentClasses="max-height"
         overlay
@@ -39,7 +41,7 @@ const MyCookieConsent = () => {
           We use Analytic cookies to collect information about how you use our
           website, in order to improve our services and enhance your user
           experience. By clicking &quot;Accept&quot;, you consent to the use of
-          these cookies. <Link href="/Datenschutzerklaerung">Datenschutzerklärung</Link>
+          these cookies. <Link className={styles.linkUnderline} href="/Datenschutzerklaerung">Datenschutzerklärung</Link>
         </span>
       </CookieConsent>
     </>

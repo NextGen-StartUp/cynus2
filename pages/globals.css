@@ -58,9 +58,6 @@ body button {
   font-family: 'Roboto', sans-serif;
 }
 
-body button:hover {
-  color: var(--color-light-gray);
-}
 
 body h1 {
   font-size: 1.7rem;
@@ -482,30 +479,6 @@ padding: 0px;
   color: var(--color-light);
   font-size: 20px;
 }
-
-
-/* #Milestones {
-  position: sticky;
-  top: 0;
-}
-#WhoWeAre {
-  position: relative;
-  z-index: 1;
-}
-
-#benefits {
-  position: sticky;
-  top: 0;
-
-}
-#Contact {
-  position: relative;
-  z-index: 1;
-  
-} */
-
-
-
 
 
 /* MOBILE VIEW */

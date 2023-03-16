@@ -47,20 +47,20 @@ function LandingPage() {
         {isMobile ? (
           <>
           <TextWithAnimationMobile text=<h1 className={styles.headline1}>The smartest way to control <br />
-          your device naturally </h1> delay={3500} 
+          your device naturally </h1> delay={500} 
           />
           <TextWithAnimationMobile text=<h1 className={styles.headline2}>
           THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1> 
-          delay={3700} />
+          delay={700} />
           </>
     ) : (
       <div>
         <TextWithAnimation text=<h1 className={styles.headline1}>The smartest way to control 
-        <br /> your device naturally</h1> delay={3500}
+        <br /> your device naturally</h1> delay={500}
         />
         <TextWithAnimation text=<h1 className={styles.headline2}>
         THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1>
-        delay={3700}/>
+        delay={700}/>
       </div>
     )}
         </div>
@@ -85,20 +85,20 @@ function LandingPage() {
        {isMobile ? (
           <>
           <TextWithAnimationMobile text=<h1 className={styles.headline1}>The smartest way to control <br />
-          your device naturally </h1> delay={3500} 
+          your device naturally </h1> delay={500} 
           />
           <TextWithAnimationMobile text=<h1 className={styles.headline2}>
           THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1> 
-          delay={3700} />
+          delay={700} />
           </>
     ) : (
       <div>
         <TextWithAnimation text=<h1 className={styles.headline1}>The smartest way to control 
-        <br /> your device naturally</h1> delay={3500}
+        <br /> your device naturally</h1> delay={500}
         />
         <TextWithAnimation text=<h1 className={styles.headline2}>
         THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1>
-        delay={3700}/>
+        delay={700}/>
       </div>
     )}
        </div>
