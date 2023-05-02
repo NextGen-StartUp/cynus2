@@ -21,6 +21,8 @@ export default function Home() {
           <meta name="description" content="THE FIRST FULLY FLEXIBLE CONFIGURABLE OPEN SPACE PC MOUSE"/>
           <meta name="keywords" content="3D Maus, 3D Mouse, HID, Computermaus, High Ergonomics, Increased Productivity, One-For-All Computers, Flexibility"/>
           <meta name="author" content="Delon Wagner"/>
+          <meta property="og:image" content="../public/image/darkBlueLogo.png" />
+          <meta property="og:url" content="https://cynus.de" />
           <link rel="icon" href="/favicon-16x16.png" />
         </Head>
         <LandingPage />

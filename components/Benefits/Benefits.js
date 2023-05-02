@@ -150,7 +150,7 @@ function Benefits() {
                   objectFit="cover"
                   src="../../image/multiple.png"
                   className="align-center"
-                  alt="Sign for One-For-All Computers"
+                  alt="Sign to use on all devices"
                 />
               </div>
               <div>
@@ -175,7 +175,7 @@ function Benefits() {
                     objectFit="cover"
                     src="../../image/multiple.png"
                     className="align-center"
-                    alt="Sign for One-For-All Computers"
+                    alt="Sign to use on all devices"
                   />
                 </div>
                 <div className="spacer-small"></div>

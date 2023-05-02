@@ -11,7 +11,7 @@ function AboutCynus({}) {
         <div className="grid-container flex-center full-height">
           <CardAnimation>
             <div className={styles.Imgbox}>
-              <Image alt="Cynus Logo" src="../../image/darkBlueLogo.png" />
+              <Image alt="Company Cynus blue Logo" src="../../image/darkBlueLogo.png" />
             </div>
           </CardAnimation>
           <div className={styles.textbox}>
