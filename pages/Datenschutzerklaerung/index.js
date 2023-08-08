@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Datenschutzerklaerung() {
   return (
     <div className="full-height2 align-left">
@@ -57,8 +59,9 @@ function Datenschutzerklaerung() {
           verfügbar.
         </h6>
         <div className="spacer-medium"></div>
+        <Link href="/"><h6>Back to 3D Maus</h6></Link>
         <div className="spacer-medium"></div>
-        <div className="spacer-small"></div>
+        <div className="spacer-medium"></div>
         <div className="spacer-small"></div>
         <div className="spacer-small"></div>
         <div className="spacer-small"></div>

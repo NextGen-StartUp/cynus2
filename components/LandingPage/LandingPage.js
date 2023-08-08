@@ -47,7 +47,7 @@ function LandingPage() {
         {isMobile ? (
           <>
           <TextWithAnimationMobile text=<h1 className={styles.headline1}>The smartest way to control <br />
-          your device naturally </h1> delay={500} 
+          your application naturally </h1> delay={500} 
           />
           <TextWithAnimationMobile text=<h1 className={styles.headline2}>
           THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1> 
@@ -56,7 +56,7 @@ function LandingPage() {
     ) : (
       <div>
         <TextWithAnimation text=<h1 className={styles.headline1}>The smartest way to control 
-        <br /> your device naturally</h1> delay={500}
+        <br /> your application naturally</h1> delay={500}
         />
         <TextWithAnimation text=<h1 className={styles.headline2}>
         THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1>
@@ -70,7 +70,7 @@ function LandingPage() {
           
           playsInline
           muted
-          alt="All the devices"
+          alt="3D Maus"
           src="../../videos/Intro_1080LL.mp4"
           ref={videoEl}
         />
@@ -85,7 +85,7 @@ function LandingPage() {
        {isMobile ? (
           <>
           <TextWithAnimationMobile text=<h1 className={styles.headline1}>The smartest way to control <br />
-          your device naturally </h1> delay={500} 
+          your application naturally </h1> delay={500} 
           />
           <TextWithAnimationMobile text=<h1 className={styles.headline2}>
           THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1> 
@@ -94,7 +94,7 @@ function LandingPage() {
     ) : (
       <div>
         <TextWithAnimation text=<h1 className={styles.headline1}>The smartest way to control 
-        <br /> your device naturally</h1> delay={500}
+        <br /> your application naturally</h1> delay={500}
         />
         <TextWithAnimation text=<h1 className={styles.headline2}>
         THE FIRST FULLY FLEXIBLE <br />CONFIGURABLE OPEN SPACE PC MOUSE <br /></h1>

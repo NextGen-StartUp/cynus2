@@ -3,6 +3,7 @@ import styles from "./Milestones.module.css";
 import FadeInWhenVisible from "../Animations/FadeInWhenVisible";
 import CardAnimation from "../Animations/CardAnimation";
 import CardAnimationTwo from "../Animations/CardAnimationTwo";
+import CardAnimationthree from "../Animations/CardAnimationthree";
 import { useEffect, useState, useRef } from "react";
 
 function MileStones({}) {
@@ -24,7 +25,7 @@ function MileStones({}) {
 
   return (
     <section id="Milestones" className="">
-    <div className="spacer-large"></div>
+      <div className="spacer-large"></div>
       <div className="headlines">
         <FadeInWhenVisible>
           <h5 className="text-left">Milestones</h5>
@@ -93,7 +94,8 @@ function MileStones({}) {
               <h5></h5>
               <h6>
                 By participating in the Pfiffikus competition at the University
-                of Freiburg, we qualified for third place against other StartUps.
+                of Freiburg, we qualified for third place against other
+                StartUps.
               </h6>
             </div>
           </div>
@@ -116,12 +118,64 @@ function MileStones({}) {
                 <h5></h5>
                 <div className="spacer-small"></div>
                 <h6>
-                By participating in the Pfiffikus competition at the University
-                of Freiburg, we qualified for third place against other StartUps.
+                  By participating in the Pfiffikus competition at the
+                  University of Freiburg, we qualified for third place against
+                  other StartUps.
                 </h6>
               </div>
             </div>
           </CardAnimationTwo>
+        )}
+        <CardAnimationTwo>
+          <div className="border-side full-height"></div>
+        </CardAnimationTwo>
+
+        {isMobile ? (
+          <div className="card">
+            <div className="card-Img">
+              <Image
+                objectFit="cover"
+                src="../../image/FoundersClub.png"
+                className={styles.MilestonesImg}
+                alt="FoundersClub Logo"
+              />
+            </div>
+            <div>
+              <h5></h5>
+              <h6>
+                At the participation in the Spark Accelarator of the Founders
+                Club Freiburg we could win the Scalability Award at the Demoday
+                which was sponsored by the Black Forest Business Angels!
+              </h6>
+            </div>
+          </div>
+        ) : (
+          <CardAnimationthree>
+            <div className="card">
+              <div className="card-Img">
+                <div className="spacer-small"></div>
+                <div className="spacer-small"></div>
+                <Image
+                  objectFit="cover"
+                  src="../../image/FoundersClub.png"
+                  className={styles.MilestonesImg}
+                  alt="FoundersClub Logo"
+                />
+              </div>
+              <div className="spacer-small"></div>
+              <div className="spacer-small"></div>
+              <div>
+                <h5></h5>
+                <div className="spacer-small"></div>
+                <h6>
+                  At the participation in the Spark Accelarator of the Founders
+                  Club Freiburg we could win the Scalability Award at the
+                  Demoday which was sponsored by the Black Forest Business
+                  Angels!
+                </h6>
+              </div>
+            </div>
+          </CardAnimationthree>
         )}
       </div>
     </section>

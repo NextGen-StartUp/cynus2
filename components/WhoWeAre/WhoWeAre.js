@@ -26,45 +26,55 @@ export default function WhoWeAre({}) {
               <FadeInWhenVisible>
                 <div className="spacer-medium"></div>
                 <FadeInWhenVisible>
-                <h1 className="text-center">The founders</h1>
+                  <h1 className="text-center">The founders</h1>
                 </FadeInWhenVisible>
                 <div className="spacer-small"></div>
                 <FadeInWhenVisible>
-                  <h2>Konstantin:</h2>
-                
-                <h2>
-                  Konstantin is currently finalizing his PhD in Micro System
-                  Technologies. Still in the early stages of his career
-                  Konstantin&apos;s interest in Software Development has led him
-                  to develop outstanding software solutions on several
-                  occasions. In combination with his understanding of hardware
-                  Konstantin helps us bring our products to life.
-                </h2>
-                </FadeInWhenVisible>
-              </FadeInWhenVisible>
-              <div className="spacer-small"></div>
-              <FadeInWhenVisible>
-                <h2>Daniel:</h2>
-            
-                <h2>
-                  Daniel completes the skillset of our founding team and brings
+                  <h2>Daniel:</h2>
+
+                  <h2>
+                    Daniel completes the skillset of our founding team and brings
                   in the economic perspective, essential to validate which
                   product pass we should follow and how we can build a
                   sustainable business. Daniel holds a bachelor&apos;s degree in
                   industrial engineering and a master&apos;s degree in
                   international business, specialized in entrepreneurship and
                   SME management.
-                </h2>
+                  </h2>
+                </FadeInWhenVisible>
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
                 <h2>Delon:</h2>
-      
+
                 <h2>
-                  With his deep background in electronics development, Delon is
-                  responsible for turning our ideas into working prototypes.
-                  Thanks to Delon we are always able to validate our ideas
-                  quickly.
+                  with his many years of experience in the field of hardware
+                  development and the leadership of a team of 10 people is
+                  responsible for the implementation of the hardware and the
+                  company&apos;s goals.
+                </h2>
+              </FadeInWhenVisible>
+              <div className="spacer-small"></div>
+              <FadeInWhenVisible>
+                <h2>Konstantin:</h2>
+
+                <h2>
+                  Konstantin is currently finalizing his PhD in Micro System
+                    Technologies. Still in the early stages of his career
+                    Konstantin&apos;s interest in Software Development has led
+                    him to develop outstanding software solutions on several
+                    occasions. In combination with his understanding of hardware
+                    Konstantin helps us bring our products to life.
+                </h2>
+              </FadeInWhenVisible>
+              <div className="spacer-small"></div>
+              <FadeInWhenVisible>
+                <h2>Julian:</h2>
+
+                <h2>
+                  Is responsible for the implementation of the applications on
+                  the computer side with his mathematical studies and his many
+                  years of experience in programming.
                 </h2>
               </FadeInWhenVisible>
             </div>
@@ -78,7 +88,7 @@ export default function WhoWeAre({}) {
               >
                 <Image
                   className="sphere"
-                  src="../../image/founders-Delon-Konstantin-Daniel.png"
+                  src="../../image/Founders3.png"
                   alt="three founders Delon Konstantin Daniel"
                   title="The Founders"
                   placeholder="blur"
