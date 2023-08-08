@@ -13,7 +13,7 @@ function AboutCynus({}) {
             <div className={styles.Imgbox}>
               <Image
                 alt="3D Maus Cynus Logo"
-                src="../../image/CynusLogo.png"
+                src="../../image/cynusLogo.png"
               />
             </div>
           </CardAnimation>
