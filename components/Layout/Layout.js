@@ -30,15 +30,14 @@ export function NavBar() {
             <h1>•</h1>
           </div>
           <div id="navbar-text" className={styles.animationContainer}>
-            <div className={`${styles.word} ${styles.w1}`}>Configurable</div>
-            <div className={`${styles.word} ${styles.w2}`}>Open space</div>
-            <div className={`${styles.word} ${styles.w3}`}>Intuitive</div>
-            <div className={`${styles.word} ${styles.w4}`}>Fully flexible</div>
-            <div className={`${styles.word} ${styles.w5}`}>20% faster</div>
-            <div className={`${styles.word} ${styles.w6}`}>No Surface required</div>
-            <div className={`${styles.word} ${styles.w7}`}>Wireless</div>
-            <div className={`${styles.word} ${styles.w8}`}>Ergonomical</div>
-            <div className={`${styles.word} ${styles.w9}`}>3D Maus</div>
+            <div className={`${styles.word} ${styles.w1}`}>Open space</div>
+            <div className={`${styles.word} ${styles.w2}`}>Intuitive</div>
+            <div className={`${styles.word} ${styles.w3}`}>Fully flexible</div>
+            <div className={`${styles.word} ${styles.w4}`}>20% faster</div>
+            <div className={`${styles.word} ${styles.w5}`}>No Surface required</div>
+            <div className={`${styles.word} ${styles.w6}`}>Wireless</div>
+            <div className={`${styles.word} ${styles.w7}`}>Ergonomical</div>
+            <div className={`${styles.word} ${styles.w8}`}>3D Maus</div>
           </div>
         </div>
         <nav className={styles.navHover}>
