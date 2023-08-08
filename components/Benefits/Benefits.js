@@ -51,7 +51,7 @@ function Benefits() {
                 <h5>High Ergonomics</h5>
                 <h6>
                   Startup Accelerator: <br />
-                  The 3D Maus Sphere One is a round surface and location independent device.
+                  The 3D Mouse Sphere One is a round surface and location independent device.
                   These properties paired with the comprehensive touch
                   interface, through which the device adapts to the user,
                   enables new degrees of freedom in control and thus ergonomic
@@ -79,7 +79,7 @@ function Benefits() {
                   <div className="spacer-small"></div>
                   <h6>
                     Startup Accelerator: <br />
-                    The 3D Maus Sphere One is a round surface and location independent
+                    The 3D Mouse Sphere One is a round surface and location independent
                     device. These properties paired with the comprehensive touch
                     interface, through which the device adapts to the user,
                     enables new degrees of freedom in control and thus ergonomic
@@ -106,7 +106,7 @@ function Benefits() {
                 <h5>Increased Productivity</h5>
                 <h6>
                   With gesture control and both smart and intuitive input,
-                  The 3D Maus Sphere One increases the user&apos;s efficiency in the
+                  The 3D Mouse Sphere One increases the user&apos;s efficiency in the
                   workflow.
                 </h6>
               </div>
@@ -131,7 +131,7 @@ function Benefits() {
                   <div className="spacer-small"></div>
                   <h6>
                     With gesture control and both smart and intuitive input,
-                    The 3D Maus Sphere One increases the user&apos;s efficiency in the
+                    The 3D Mouse Sphere One increases the user&apos;s efficiency in the
                     workflow.
                   </h6>
                 </div>
@@ -156,7 +156,7 @@ function Benefits() {
               <div>
                 <h5>One-For-All Computers</h5>
                 <h6>
-                The 3D Maus Sphere One is a Human Interface Device (HID), which forms the
+                The 3D Mouse Sphere One is a Human Interface Device (HID), which forms the
                   interface for human-PC interaction. With this standard, Sphere
                   One can be used universally as a PC mouse with many new smart
                   functions as an input device. Our intention is to replace
@@ -184,7 +184,7 @@ function Benefits() {
                   <h5>One-For-All Computers</h5>
                   <div className="spacer-small"></div>
                   <h6>
-                  The 3D Maus Sphere One is a Human Interface Device (HID), which forms
+                  The 3D Mouse Sphere One is a Human Interface Device (HID), which forms
                     the interface for human-PC interaction. With this standard,
                     Sphere One can be used universally as a PC mouse with many
                     new smart functions as an input device. Our intention is to
@@ -213,7 +213,7 @@ function Benefits() {
               <div>
                 <h5>More Flexibility</h5>
                 <h6>
-                The 3D Maus Sphere One enables three-axis navigation in &quot;space&quot;
+                The 3D Mouse Sphere One enables three-axis navigation in &quot;space&quot;
                   and is therefore ideal for 3D applications. This control can
                   be used for 2D applications without loss of quality. Sphere
                   One automatically recognizes when which scope of control is
@@ -240,7 +240,7 @@ function Benefits() {
                   <h5>More Flexibility</h5>
                   <div className="spacer-small"></div>
                   <h6>
-                  The 3D Maus Sphere One enables three-axis navigation in
+                  The 3D Mouse Sphere One enables three-axis navigation in
                     &quot;space&quot; and is therefore ideal for 3D
                     applications. This control can be used for 2D applications
                     without loss of quality. Sphere One automatically recognizes

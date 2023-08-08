@@ -37,7 +37,7 @@ export function NavBar() {
             <div className={`${styles.word} ${styles.w5}`}>Works on air</div>
             <div className={`${styles.word} ${styles.w6}`}>Wireless</div>
             <div className={`${styles.word} ${styles.w7}`}>Ergonomical</div>
-            <div className={`${styles.word} ${styles.w8}`}>3D Maus</div>
+            <div className={`${styles.word} ${styles.w8}`}>3D Mouse</div>
           </div>
         </div>
         <nav className={styles.navHover}>

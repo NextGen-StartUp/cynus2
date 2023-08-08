@@ -59,7 +59,7 @@ function Datenschutzerklaerung() {
           verfügbar.
         </h6>
         <div className="spacer-medium"></div>
-        <Link href="/"><h6>Back to 3D Maus</h6></Link>
+        <Link href="/"><h6>Back to 3D Mouse</h6></Link>
         <div className="spacer-medium"></div>
         <div className="spacer-medium"></div>
         <div className="spacer-small"></div>

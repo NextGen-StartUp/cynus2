@@ -70,7 +70,7 @@ function LandingPage() {
           
           playsInline
           muted
-          alt="3D Maus"
+          alt="3D Mouse"
           src="../../videos/Intro_1080LL.mp4"
           ref={videoEl}
         />

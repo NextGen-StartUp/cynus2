@@ -71,7 +71,7 @@ function Impressum() {
         <h6>Bahnhofstr. 35a</h6>
         <h6>79206 Breisach am Rhein</h6>
         <div className="spacer-medium"></div>
-        <Link href="/"><h6>Back to 3D Maus</h6></Link>
+        <Link href="/"><h6>Back to 3D Mouse</h6></Link>
       </div>
       <div className="spacer-medium"></div>
       <div className="spacer-medium"></div>
