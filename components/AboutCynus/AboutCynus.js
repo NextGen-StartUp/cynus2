@@ -53,7 +53,7 @@ function AboutCynus({}) {
                 On the one hand, our 3D Maus reduces the necessary HIDs that the
                 customer needs for their tasks, and on the other hand, they are
                 no longer dependent on the surface and position. The user gets
-                more degrees of freedom to execute the customer's job. An
+                more degrees of freedom to execute the customer&apos;s job. An
                 emotional added value is the chic design of our 3D Maus, which
                 clearly stands out from previous HIDs, according to the motto
                 &quot;simple is more&quot;.
