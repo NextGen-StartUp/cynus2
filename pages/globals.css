@@ -213,6 +213,7 @@ body hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .full-height2 {
@@ -220,6 +221,7 @@ body hr {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .max-height {
