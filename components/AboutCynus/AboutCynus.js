@@ -61,7 +61,7 @@ function AboutCynus({}) {
               <div className="spacer-small"></div>
             </FadeInWhenVisible>
             <div className="spacer-small"></div>
-            <FadeInWhenVisible>
+            
               <h2 className={styles.heading}>
                 <span style={{ color: "#ffffff7a", letterSpacing: "1px" }}>
                   <strong>
@@ -77,9 +77,9 @@ function AboutCynus({}) {
                 digital navigation while optimizing ergonomics.
               </h2>
               <div className="spacer-small"></div>
-            </FadeInWhenVisible>
+            
             <div className="spacer-small"></div>
-            <FadeInWhenVisible>
+            
               <h2 className={styles.heading}>
                 <span style={{ color: "#ffffff7a", letterSpacing: "1px" }}>
                   <strong>Your Benefits with Sphere One</strong>
@@ -112,9 +112,9 @@ function AboutCynus({}) {
                   </li>
                 </ul>
               </h2>
-            </FadeInWhenVisible>
+            
             <div className="spacer-small"></div>
-            <FadeInWhenVisible>
+            
               <h2 className={styles.heading}>
                 <span style={{ color: "#ffffff7a", letterSpacing: "1px" }}>
                   <strong>The Magic of Sphere One</strong>
@@ -163,9 +163,9 @@ function AboutCynus({}) {
                 </ul>
               </h2>
               <div className="spacer-medium"></div>
-            </FadeInWhenVisible>
+            
             <div className="spacer-small"></div>
-            <FadeInWhenVisible>
+            
               <h2>
                 Welcome to the future of 3D navigation. Welcome to Sphere One by
                 Cynus - The smartest way to control your application.
@@ -177,7 +177,7 @@ function AboutCynus({}) {
                   your workflow. Contact us today.
                 </em>
               </h2>
-            </FadeInWhenVisible>
+            
           </div>
         </div>
       </div>

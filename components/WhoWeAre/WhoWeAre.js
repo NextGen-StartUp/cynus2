@@ -30,7 +30,8 @@ export default function WhoWeAre({}) {
                 </FadeInWhenVisible>
                 <div className="spacer-small"></div>
                 <FadeInWhenVisible>
-                  <h2>Daniel:</h2>
+                
+                  <h2 style={{ color: "#ffffff7a" }}>Daniel:</h2>
 
                   <h2>
                     Daniel completes the skillset of our founding team and brings
@@ -45,7 +46,7 @@ export default function WhoWeAre({}) {
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
-                <h2>Delon:</h2>
+                <h2 style={{ color: "#ffffff7a" }}>Delon:</h2>
 
                 <h2>
                   with his many years of experience in the field of hardware
@@ -56,7 +57,7 @@ export default function WhoWeAre({}) {
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
-                <h2>Konstantin:</h2>
+                <h2 style={{ color: "#ffffff7a" }}>Konstantin:</h2>
 
                 <h2>
                   Konstantin is currently finalizing his PhD in Micro System
@@ -69,7 +70,7 @@ export default function WhoWeAre({}) {
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
-                <h2>Julian:</h2>
+                <h2 style={{ color: "#ffffff7a" }}>Julian:</h2>
 
                 <h2>
                   Is responsible for the implementation of the applications on
