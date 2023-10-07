@@ -31,13 +31,6 @@ function AboutCynus({}) {
                     Efficiency and Ergonomics
                   </strong>
                 </span>
-                {/* We deliver &quot;The smartest way to control your application&quot;
-                and perfect the human-device communication with our
-                product, the 3D Mouse. For the first time, the user is able to
-                control their software application on the PC with only one input
-                device. The intuitive use and smart features enable more
-                efficient work and thus cost savings. On top, the high level of
-                ergonomics contributes to the user&apos;s health. */}
               </h2>
               <div className="spacer-small"></div>
               <h2>
@@ -54,13 +47,6 @@ function AboutCynus({}) {
                 <span style={{ letterSpacing: "1px", color: "#ffffff7a" }}>
                   <strong>The Problem: Human Bottleneck in Technology</strong>
                 </span>
-                {/* On the one hand, our 3D Mouse reduces the necessary HIDs that the
-                customer needs for their tasks, and on the other hand, they are
-                no longer dependent on the surface and position. The user gets
-                more degrees of freedom to execute the customer&apos;s job. An
-                emotional added value is the chic design of our 3D Mouse, which
-                clearly stands out from previous HIDs, according to the motto
-                &quot;simple is more&quot;. */}
               </h2>
               <div className="spacer-small"></div>
               <h2>
@@ -133,14 +119,6 @@ function AboutCynus({}) {
                 <span style={{ color: "#ffffff7a", letterSpacing: "1px" }}>
                   <strong>The Magic of Sphere One</strong>
                 </span>
-                {/* The 3D Mouse is a spherical device, which has sensors inside that make it
-                possible to determine the position even without a base or
-                external transmitters/sensors. The surface of the device is
-                completely touch-sensitive and thus enables further control
-                options. Through these many degrees of freedom, it is possible
-                to flexibly adapt the input mechanisms to the respective
-                applications. Due to the design and the new input possibilities,
-                our 3D Mouse stands out from the usual devices on the market. */}
               </h2>
               <div className="spacer-small"></div>
               <h2>
@@ -184,6 +162,7 @@ function AboutCynus({}) {
                   </li>
                 </ul>
               </h2>
+              <div className="spacer-medium"></div>
             </FadeInWhenVisible>
             <div className="spacer-small"></div>
             <FadeInWhenVisible>

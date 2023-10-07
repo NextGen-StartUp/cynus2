@@ -575,6 +575,7 @@ padding: 0px;
   .grid-container {
     display: flex;
     flex-direction: column;
+    margin: 0px 10px 0px 10px;
   }
   .grid-container2 {
     grid-template-columns: 1fr;
