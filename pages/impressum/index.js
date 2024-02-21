@@ -71,7 +71,7 @@ function Impressum() {
         <h6>Bahnhofstr. 35a</h6>
         <h6>79206 Breisach am Rhein</h6>
         <div className="spacer-medium"></div>
-        <h1>Hinter Cynus verbirgt sich aktuell nur ein Gründungsvorhaben aus drei Gründern.</h1>
+        <h1>Hinter Cynus verbirgt sich aktuell ein Gründungsvorhaben aus drei Gründern.</h1>
         <div className="spacer-medium"></div>
         <Link href="/"><h6>Back to 3D Mouse</h6></Link>
       </div>
