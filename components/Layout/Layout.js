@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import styles from "./Layout.module.css";
 import UseScroll from "../Scrollindicator/UseScroll";
 import { useRouter } from 'next/router';
-
+import RoundLink from '../RoundLink/RoundLink';
 
 export function NavBar() {
   const [click, setClick] = useState(false);
@@ -66,6 +66,7 @@ function Layout(props) {
     <div className="layout">
       <NavBar />
       <div className="main-container">
+        <RoundLink />
         <main>{props.children}</main>
       </div>
       <Footer />

@@ -18,6 +18,11 @@ function Footer() {
               <Link href="/Datenschutzerklaerung">Datenschutzerklärung</Link>
             </h4>
           </div>
+          {/* <div>
+            <h4>
+              <Link href="/Ausschreibung">Ausschreibung</Link>
+            </h4>
+          </div> */}
         </div>
         <div>
           <h4>All rights reserved.</h4>

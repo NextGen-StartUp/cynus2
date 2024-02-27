@@ -1,0 +1,59 @@
+.roundlink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #1442db;
+    color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    top: 140px;
+    right: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    animation: pulsate 2s infinite; /* Fügt die Pulsationsanimation hinzu */
+  }
+  
+  .roundlink:hover {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+  }
+  
+  /* Definiert die Keyframe-Animation für das Pulsieren */
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .roundlink:hover {
+    animation: none; /* Stoppt die Animation bei Hover */
+  }
+  
+  /* Fügt den zusätzlichen Container für den Text hinzu */
+  /* .roundlink::before {
+    content: 'Ausschreibung';
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  } */
+  
+  .roundlink:hover::before {
+    opacity: 1;
+  }
