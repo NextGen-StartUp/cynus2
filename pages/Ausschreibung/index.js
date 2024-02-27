@@ -14,7 +14,7 @@ function Ausschreibung() {
 
           <Image
                 objectFit="cover"
-                src="../../image/Ausschreibung.png"
+                src="../../image/Ausschreibung.PNG"
                 className="align-center"
                 alt="Ausschreibung"
               />
