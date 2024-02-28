@@ -66,7 +66,7 @@ function Layout(props) {
     <div className="layout">
       <NavBar />
       <div className="main-container">
-        <RoundLink />
+        {/* <RoundLink /> */}
         <main>{props.children}</main>
       </div>
       <Footer />
