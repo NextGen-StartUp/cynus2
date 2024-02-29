@@ -10,7 +10,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/ausschreibung",
+        source: "/(a|A)(u|U)(s|S)(s|S)(c|C)(h|H)(r|R)(e|E)(i|I)(b|B)(u|U)(n|N)(g|G)",
         destination: '/Ausschreibung'
       },
     ];
