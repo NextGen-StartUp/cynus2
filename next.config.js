@@ -1,3 +1,4 @@
+// next.config.js
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -8,7 +9,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/(Ausschreibung|ausschreibung)',
+        source: '/:path((Ausschreibung|ausschreibung))',
         destination: '/Ausschreibung',
         permanent: true,
       },
