@@ -1,3 +1,4 @@
+// Ausschreibung.js
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Image } from "@chakra-ui/react";
@@ -6,10 +7,10 @@ function Ausschreibung() {
   const router = useRouter();
 
   useEffect(() => {
-    const currentPath = router.asPath;
+    const { asPath } = router;
+    const lowercasePath = asPath.toLowerCase();
 
-    // Perform a case-insensitive comparison
-    if (!currentPath.match(/\/ausschreibung/i)) {
+    if (lowercasePath === '/ausschreibung') {
       // Redirect to the correct path
       router.replace('/Ausschreibung');
     }
