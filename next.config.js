@@ -1,7 +1,3 @@
-/** @type {import('next').NextConfig} */
-
-
-
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -9,6 +5,15 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
-}
+  async redirects() {
+    return [
+      {
+        source: '/(Ausschreibung|ausschreibung)',
+        destination: '/Ausschreibung',
+        permanent: true,
+      },
+    ];
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
