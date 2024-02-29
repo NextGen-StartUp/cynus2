@@ -1,14 +1,12 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
+const withMiddleware = require('next-middleware').middleware;
 
-
-
-const nextConfig = {
+module.exports = withMiddleware({
+  middleware: [require.resolve('./middleware/lowercasePathMiddleware')],
   reactStrictMode: true,
   swcMinify: true,
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
   },
-}
-
-module.exports = nextConfig
+});
