@@ -63,7 +63,7 @@ function Contact() {
                     <div className="text-center contact-icon-hover">
                       <h5>E-Mail</h5>
                       <a
-                        href="mailto:info@cynus.com"
+                        href="mailto:info@cynus.de"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
