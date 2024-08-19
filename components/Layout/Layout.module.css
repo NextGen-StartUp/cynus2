@@ -87,88 +87,49 @@
   opacity: 1;
 }
 
-@keyframes w1anim {
-  0%   { opacity: 0; }
-  4.16%   { opacity: 1; }
-  8.33% { opacity: 0; }
-}
-
-@keyframes w2anim {
-  12.5%   { opacity: 0; }
-  16.66%  { opacity: 1; }
-  20.83%  { opacity: 0; }
-}
-
-@keyframes w3anim {
-  25%     { opacity: 0; }
-  29.16%  { opacity: 1; }
-  33.33%  { opacity: 0; }
-}
-
-@keyframes w4anim {
-  37.5%   { opacity: 0; }
-  41.66%  { opacity: 1; }
-  45.83%  { opacity: 0; }
-}
-
-@keyframes w5anim {
-  50%     { opacity: 0; }
-  54.16%  { opacity: 1; }
-  58.33%  { opacity: 0; }
-}
-
-@keyframes w6anim {
-  62.5%   { opacity: 0; }
-  66.66%  { opacity: 1; }
-  70.83%  { opacity: 0; }
-}
-
-@keyframes w7anim {
-  75%     { opacity: 0; }
-  79.16%  { opacity: 1; }
-  83.33%  { opacity: 0; }
-}
-
-@keyframes w8anim {
-  87.5%   { opacity: 0; }
-  91.66%  { opacity: 1; }
-  95.83%  { opacity: 0; }
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  12.5% { opacity: 1; }
+  25% { opacity: 0; }
 }
 .w1 {
-  -webkit-animation: w1anim 14s infinite;
-          animation: w1anim 14s infinite;
+  animation: fadeInOut 18s infinite;
+  animation-delay: 0s;
 }
- 
+
 .w2 {
-  -webkit-animation: w2anim 14s infinite;
-          animation: w2anim 14s infinite;
+  animation: fadeInOut 18s infinite;
+  animation-delay: 2.25s; /* 18s / 8 elements */
 }
- 
+
 .w3 {
-  -webkit-animation: w3anim 14s infinite;
-          animation: w3anim 14s infinite;
+  animation: fadeInOut 18s infinite;
+  animation-delay: 4.5s; /* 18s / 8 elements */
 }
- 
+
 .w4 {
-  -webkit-animation: w4anim 14s infinite;
-          animation: w4anim 14s infinite;
+  animation: fadeInOut 18s infinite;
+  animation-delay: 6.75s; /* 18s / 8 elements */
 }
- 
+
 .w5 {
-  -webkit-animation: w5anim 14s infinite;
-          animation: w5anim 14s infinite;
+  animation: fadeInOut 18s infinite;
+  animation-delay: 9s; /* 18s / 8 elements */
 }
+
 .w6 {
-  -webkit-animation: w6anim 14s infinite;
-          animation: w6anim 14s infinite;
+  animation: fadeInOut 18s infinite;
+  animation-delay: 11.25s; /* 18s / 8 elements */
 }
+
 .w7 {
-  -webkit-animation: w7anim 14s infinite;
-          animation: w7anim 14s infinite;
+  animation: fadeInOut 18s infinite;
+  animation-delay: 13.5s; /* 18s / 8 elements */
 }
+
 .w8 {
-  -webkit-animation: w8anim 14s infinite;
-          animation: w8anim 14s infinite;
+  animation: fadeInOut 18s infinite;
+  animation-delay: 15.75s; /* 18s / 8 elements */
 }
 
 @media (max-width: 1200px) {
