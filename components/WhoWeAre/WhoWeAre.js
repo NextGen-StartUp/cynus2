@@ -70,13 +70,15 @@ export default function WhoWeAre({}) {
               </FadeInWhenVisible>
               <div className="spacer-small"></div>
               <FadeInWhenVisible>
-                <h2 style={{ color: "#ffffff7a" }}>Julian:</h2>
+              <h2 style={{ color: "#ffffff7a", visibility: 'visible' }}>
+    Julian:
+  </h2>
 
-                <h2>
-                  Is responsible for the implementation of the applications on
-                  the computer side with his mathematical studies and his many
-                  years of experience in programming.
-                </h2>
+  <h2 style={{ color: "#ffffff", visibility: 'visible' }}>
+    Is responsible for the implementation of the applications on
+    the computer side with his mathematical studies and his many
+    years of experience in programming.
+  </h2>
               </FadeInWhenVisible>
             </div>
           </div>
