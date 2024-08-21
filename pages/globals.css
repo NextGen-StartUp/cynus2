@@ -90,6 +90,10 @@ body hr {
   box-shadow: 0 0 1px var(--color-primary);
 }
 
+
+.padding-about {
+  padding: 80px;
+}
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -488,6 +492,9 @@ padding: 0px;
 @media (max-width: 1100px) {
   .mobile-size {
     font-size: 15px;
+  }
+  .padding-about {
+    padding: 20px 10px;;
   }
 }
 
