@@ -50,7 +50,6 @@ function Benefits() {
               <div>
                 <h5>High Ergonomics</h5>
                 <h6>
-                  Startup Accelerator: <br />
                   The 3D Mouse Sphere One is a round surface and location independent device.
                   These properties paired with the comprehensive touch
                   interface, through which the device adapts to the user,
@@ -78,7 +77,6 @@ function Benefits() {
                   <h5>High Ergonomics</h5>
                   <div className="spacer-small"></div>
                   <h6>
-                    Startup Accelerator: <br />
                     The 3D Mouse Sphere One is a round surface and location independent
                     device. These properties paired with the comprehensive touch
                     interface, through which the device adapts to the user,

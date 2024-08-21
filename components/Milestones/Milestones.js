@@ -45,7 +45,7 @@ function MileStones({}) {
             </div>
             <div>
               <h6>
-                Startup Accelerator: We were able to qualify and participate in
+                We were able to qualify and participate in
                 the Accelerator Program at BadenCampus among many other
                 startups.
               </h6>
@@ -68,7 +68,7 @@ function MileStones({}) {
                 <h5></h5>
                 <div className="spacer-small"></div>
                 <h6>
-                  Startup Accelerator: We were able to qualify and participate
+                  We were able to qualify and participate
                   in the Accelerator Program at BadenCampus among many other
                   startups.
                 </h6>
