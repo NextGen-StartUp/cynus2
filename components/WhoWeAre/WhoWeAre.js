@@ -19,20 +19,24 @@ export default function WhoWeAre({}) {
               <FadeInWhenVisible>
                 <h2>
                   At Cynus, we&apos;re a team of four founders driving our
-                  product, Sphere One, forward. Delon, our CEO, leads the
+                  product, Sphere One, forward. <br/> 
+                  <br/> Delon, our CEO, leads the
                   company with a clear vision and a focus on both management and
                   hardware innovation. With his extensive experience in
                   leadership and hardware development, he ensures that our
                   technology is top-notch while keeping Cynus on track to
-                  achieve our goals. Julian, our CSO, is responsible for
+                  achieve our goals. <br/> 
+                  <br/> Julian, our CSO, is responsible for
                   strategic software development and innovation. With a solid
                   background in mathematics and extensive programming expertise,
                   he ensures that our software solutions are cutting-edge and
-                  align with our long-term vision. Ilya, another Co-Founder and
+                  align with our long-term vision. <br/> 
+                  <br/> Ilya, another Co-Founder and
                   CFO, manages our finances and business model. His deep
                   understanding of economics and business analytics keeps our
                   operations financially sound and strategically aligned.
-                  Finally, Konstantin, our technical expert and CTO, leads the
+                  <br/> 
+                  <br/> Finally, Konstantin, our technical expert and CTO, leads the
                   technical and pre-development efforts. As he completes his PhD
                   in Micro System Technologies, Konstantin&apos;s dual expertise
                   in hardware and software is crucial in bringing Sphere One to
