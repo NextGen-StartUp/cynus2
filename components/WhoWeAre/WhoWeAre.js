@@ -113,7 +113,7 @@ export default function WhoWeAre({}) {
               >
                 <Image
                   className="sphere"
-                  src="../../image/founders-new.png"
+                  src="../../image/founders-new2.png"
                   alt="three founders Delon Konstantin Daniel"
                   title="The Founders"
                   placeholder="blur"
