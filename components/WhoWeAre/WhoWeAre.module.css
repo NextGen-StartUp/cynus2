@@ -1,0 +1,48 @@
+.highlight {
+  color: #1442db;
+  transition: color 0.3s ease-in-out;
+}
+
+.pulsingCircle {
+  border-radius: 50%;
+  border: 2px solid #1442db;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.overlayArea {
+  pointer-events: auto;
+  z-index: 10;
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1442db;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  display: none;
+}
+
+.overlayArea:hover .tooltip {
+  display: block;
+}
