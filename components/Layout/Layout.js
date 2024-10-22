@@ -2,28 +2,31 @@ import Link from "next/link";
 import Footer from "../Layout/Footer";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./Layout.module.css";
 import UseScroll from "../Scrollindicator/UseScroll";
-import { useRouter } from 'next/router';
-import RoundLink from '../RoundLink/RoundLink';
 
 export function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-
   return (
     <>
       <header className={styles.header}>
         <div className={styles.bgHeader}></div>
         <Link
-          className={styles.logo}
+          className={styles.logoContainer}
           data-link-alt="Landing Page"
           href="/#LandingPage"
         >
-          {"CYNUS"}
+          <div className={styles.logoHexagon}>
+            <img
+              src="../../image/darkBlueLogo.png"
+              alt="Logo"
+              className={styles.logoImage}
+            />
+          </div>
         </Link>
         <div className={styles.navLeftDotContainer}>
           <div id="nav-bar-dot">
@@ -42,11 +45,31 @@ export function NavBar() {
         </div>
         <nav className={styles.navHover}>
           <ul className={click ? "nav-options active" : "nav-options"}>
-            <li onClick={closeMobileMenu}><Link href="/#AboutCynus" data-link-alt="About"><span>About</span></Link></li>
-            <li onClick={closeMobileMenu}><Link href="/#WhoWeAre" data-link-alt="Who We Are"><span>Who We Are</span></Link></li>
-            <li onClick={closeMobileMenu}><Link href="/#Milestones" data-link-alt="MileStones"><span>MileStones</span></Link></li>
-            <li onClick={closeMobileMenu}><Link href="/#benefits" data-link-alt="Benefits"><span>Benefits</span></Link></li>
-            <li className="link-contact" onClick={closeMobileMenu}><Link href="/#Contact" data-link-alt="Contact"><span>Contact</span></Link></li>
+            <li onClick={closeMobileMenu}>
+              <Link href="/#AboutCynus" data-link-alt="About">
+                <span>About</span>
+              </Link>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <Link href="/#WhoWeAre" data-link-alt="Who We Are">
+                <span>Who We Are</span>
+              </Link>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <Link href="/#Milestones" data-link-alt="MileStones">
+                <span>MileStones</span>
+              </Link>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <Link href="/#benefits" data-link-alt="Benefits">
+                <span>Benefits</span>
+              </Link>
+            </li>
+            <li className="link-contact" onClick={closeMobileMenu}>
+              <Link href="/#Contact" data-link-alt="Contact">
+                <span>Contact</span>
+              </Link>
+            </li>
           </ul>
           <div className="mobile-menu" onClick={handleClick}>
             {click ? (

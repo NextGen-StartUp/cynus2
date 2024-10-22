@@ -1,10 +1,11 @@
  .Imgbox {
-     border-right: 1px solid rgba(255, 255, 255, 0.247);
+     border-left: 1px solid rgba(255, 255, 255, 0.247);
      display: flex;
      justify-content: center;
      align-items: center;
      padding-right: 15px;
      overflow: hidden;
+     transform: scaleX(-1);
  }
 
  .textbox {

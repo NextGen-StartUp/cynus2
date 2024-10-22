@@ -61,6 +61,31 @@
   color: #ffffff99;
   margin-bottom: 4px;
 }
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoHexagon {
+  position: relative;
+  width: 80px; /* Reduced width for a smaller hexagon */
+  height: 80px; /* Reduced height to maintain hexagon proportions (1.15 times width) */
+  background-color: #ffffff;
+  clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensure any excess parts of the image are clipped */
+}
+
+.logoImage {
+  width: 65%; /* Reduced size to create more breathing room */
+  height: auto;
+  max-height: 70%;
+  object-fit: contain; /* Make sure the image fits properly within the hexagon */
+}
+
 .navHover span {
   display: block;
   transition: 0.5s;

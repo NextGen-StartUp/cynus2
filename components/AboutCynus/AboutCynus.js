@@ -21,8 +21,8 @@ function AboutCynus({}) {
           <CardAnimation>
             <div className={styles.Imgbox}>
               <Image
-                alt="3D Mouse Cynus Logo"
-                src="../../image/cynusLogo.png"
+                alt="3D Mouse Cynus Product"
+                src="../../image/product.png"
               />
             </div>
           </CardAnimation>
