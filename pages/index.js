@@ -28,8 +28,9 @@ export default function Home() {
         <LandingPage />
         <AboutCynus />
       </div>
-      <WhoWeAre />
+      
       <MileStones />
+      <WhoWeAre />
       <Benefits />
       <Contact />
     </>

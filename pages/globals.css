@@ -192,7 +192,7 @@ body hr {
 }
 
 .grid-line {
-  border-right: 1px solid rgba(255, 255, 255, 0.247);
+  /* border-right: 1px solid rgba(255, 255, 255, 0.247); */
   padding-right: 45px;
   
 }
