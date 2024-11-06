@@ -25,7 +25,6 @@ export function NavBar() {
               src="../../image/darkBlueLogo.png"
               alt="Logo"
               className={styles.logoImage}
-              
             />
           </div>
         </Link>
