@@ -25,7 +25,7 @@ function Footer() {
           </div> */}
         </div>
         <div>
-          <h4>All rights reserved.</h4>
+          <h4></h4>
         </div>
       </div>
     </section>
