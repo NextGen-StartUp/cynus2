@@ -69,7 +69,7 @@ function Impressum() {
         <div className="spacer-small"></div>
         <h5>Adresse:</h5>
         <h6>Stefan-Meier-Straße 21</h6>
-        <h6>79104 Freiburg Im Breisgau</h6>
+        <h6>79104 Freiburg im Breisgau</h6>
         <div className="spacer-medium"></div>
         <h1>Hinter Cynus verbirgt sich aktuell ein Gründungsvorhaben aus drei Gründern.</h1>
         <div className="spacer-medium"></div>
