@@ -27,13 +27,12 @@ export default function Achievements() {
     <section id="Achievements">
       <div className="padding-top">
         <div className="spacer-large" />
-         <FadeInWhenVisible>
-                 <div className="headlines">
-                   <h5 className="">Achievements</h5>
-                 </div>
-               </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <div className="headlines">
+            <h5 className="">Achievements</h5>
+          </div>
+        </FadeInWhenVisible>
         <div className={`${styles["grid-container"]} full-height`}>
-          
           {/* Left: logos */}
           <CardAnimation>
             <Box className={styles.Imgbox}>
@@ -69,8 +68,15 @@ export default function Achievements() {
           {/* Right: text */}
           <Box className={styles.textbox}>
             <FadeInWhenVisible>
-              <Text as="h6" fontSize="4xl" fontWeight="bold" mt={4} textAlign="center">
-                We&apos;re proud to have been recognized with multiple awards over the years!
+              <Text
+                as="h6"
+                fontSize="4xl"
+                fontWeight="bold"
+                mt={4}
+                textAlign="center"
+              >
+                We&apos;re proud to have been recognized with multiple awards
+                over the years!
               </Text>
 
               {/* Chakra List wrapper fixes the ListItem error */}
@@ -81,16 +87,16 @@ export default function Achievements() {
                 textAlign="left"
                 display="inline-block"
                 fontSize="xl"
-                >
+              >
                 {items.map(({ year, text }) => (
-                    <FadeInWhenVisible  key={year}>
-                  <ListItem>
-                    <Text as="span" fontWeight="bold">
-                      {year}
-                    </Text>{" "}
-                    {text}
-                  </ListItem>
-                </FadeInWhenVisible>
+                  <FadeInWhenVisible key={year}>
+                    <ListItem>
+                      <Text as="span" fontWeight="bold">
+                        {year}
+                      </Text>{" "}
+                      {text}
+                    </ListItem>
+                  </FadeInWhenVisible>
                 ))}
               </List>
             </FadeInWhenVisible>
