@@ -57,7 +57,8 @@
     grid-template-columns: 1fr;
     padding: 0 20px;
     min-height: 140vh;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
+    margin-bottom: 15px;
   }
   .logoColumn {
     gap: 40px;
