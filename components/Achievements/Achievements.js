@@ -39,7 +39,7 @@ export default function Achievements() {
               {/* Full‐height Gründerpreis */}
               <Box className={styles.logoColumn}>
                 <Image
-                  src="/image/Gruendungspreis.png"
+                  src="../../image/Gruendungspreis.png"
                   alt="BMWK Gründerpreis"
                   objectFit="contain"
                 />
@@ -57,7 +57,7 @@ export default function Achievements() {
                   objectFit="contain"
                 />
                 <Image
-                  src="/image/CyberOne.png"
+                  src="../../image/Cyberone.png"
                   alt="CyberOne Hightech Award"
                   objectFit="contain"
                 />
