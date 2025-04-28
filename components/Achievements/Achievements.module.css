@@ -41,9 +41,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;       /* ← vertical-center both columns */
-  min-height: 100vh;          /* or 100vh if you want full viewport height */
+  min-height: 80vh;          /* or 100vh if you want full viewport height */
   padding: 0 60px;
-  gap: 5%;
+  gap: 8%;
 }
 
 @media (max-width: 900px) {
