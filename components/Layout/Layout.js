@@ -52,8 +52,13 @@ export function NavBar() {
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
-              <Link href="/#Milestones" data-link-alt="MileStones">
-                <span>MileStones</span>
+              <Link href="/#Achievements" data-link-alt="Achievements">
+                <span>Achievements</span>
+              </Link>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <Link href="/#benefits" data-link-alt="Benefits">
+                <span>Benefits</span>
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
@@ -62,8 +67,8 @@ export function NavBar() {
               </Link>
             </li>
             <li onClick={closeMobileMenu}>
-              <Link href="/#benefits" data-link-alt="Benefits">
-                <span>Benefits</span>
+              <Link href="/#Supporter" data-link-alt="Supporter">
+                <span>Supporter</span>
               </Link>
             </li>
             <li className="link-contact" onClick={closeMobileMenu}>

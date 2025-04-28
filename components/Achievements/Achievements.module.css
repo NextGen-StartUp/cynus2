@@ -1,0 +1,164 @@
+.Imgbox {
+  display: flex;
+  align-items: stretch;     /* ← let columns be same height */
+  justify-content: center;
+  gap: 40px;
+  height: 100%;             /* ← fill the grid’s height */
+}
+
+.logoColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoColumn img {
+  height: 340px;
+  width: auto;
+}
+
+/* 1st column: make it grow and center its one child vertically */
+.logoColumn:first-child {
+  flex: 1;                  /* ← take up all of .Imgbox’s height */
+  justify-content: center;  /* ← vertically center the single image */
+}
+
+/* the “other three” logos stay small and equal */
+.logoColumn:not(:first-child) img {
+  max-height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.Imgbox img {
+  width: auto;
+  object-fit: contain;
+}
+
+/* two-col on desktop, full-width stack on mobile */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;       /* ← vertical-center both columns */
+  min-height: 100vh;          /* or 100vh if you want full viewport height */
+  padding: 0 60px;
+  gap: 5%;
+}
+
+@media (max-width: 900px) {
+  .Imgbox {
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    min-height: 140vh;
+  }
+  .logoColumn {
+    gap: 40px;
+  }
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+.textbox h5,
+.textbox h6 {
+  color: #000;
+}
+
+.textbox ul {
+  list-style-type: disc;
+  padding-left: 1.2em;
+  margin-top: 1em;
+}
+
+.textbox li {
+  margin-bottom: 0.5em;
+}
+
+
+/* .Imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    overflow: hidden;
+    transform: scaleX(-1);
+}
+
+.textbox {
+   display: flex;
+   flex-direction: column;
+   overflow-y: auto;
+   padding: 40px 80px;
+}
+.textbox::-webkit-scrollbar {
+   width: 1px; 
+ }
+ 
+ .textbox::-webkit-scrollbar-track {
+   background: #f1f1f1;
+ }
+ 
+ .textbox::-webkit-scrollbar-thumb {
+   background: gray; 
+ }
+ 
+ .textbox::-webkit-scrollbar-thumb:hover {
+   background: darkgray; 
+ }
+ 
+ .textbox {
+   scrollbar-width: thin; 
+   scrollbar-color: gray #f1f1f1; 
+ }
+
+ .heading {
+   text-align: center; 
+ }
+ 
+ .content {
+   text-align: left;
+ }
+
+ .textbox ul {
+   list-style-type: disc; 
+   padding-left: 30px; 
+   margin-top: 10px; 
+   margin-bottom: 10px; 
+ }
+ 
+ .textbox li {
+   margin-bottom: 5px; 
+ }
+ .textbox li::marker {
+   color: #000000; 
+   font-size: 1em; 
+ }
+ 
+
+@media screen and (max-width: 900px) {
+    .Imgbox {
+        border-right: 0px solid rgba(255, 255, 255, 0.247);
+        padding-right: 0px;
+    }
+
+    .textbox {
+        text-align: left;
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .textbox h1 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+} */

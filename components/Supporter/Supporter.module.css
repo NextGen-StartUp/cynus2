@@ -1,0 +1,69 @@
+.gridContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr; /* two equal‐height rows */
+    max-height: 140vh;                /* total container height (adjust as desired) */
+    margin: 0 60px;              /* match your Achievements page */
+                      /* vertical space between top & bottom */
+    
+  }
+  
+  @media (max-width: 900px) {
+    .gridContainer {
+      grid-template-rows: auto auto;
+      height: auto;
+      margin: 0 20px;
+      gap: 20px;
+    }
+    .bottomImagesBox {
+        flex-direction: column;
+        align-items: stretch;  /* so each child is full width */
+        gap: 20px;             /* a little less gap on mobile */
+      }
+      .logoWrapper {
+        flex: none;            /* don’t flex-grow on mobile */
+        width: 100%;           /* full-width wrappers */
+        height: auto;          /* let the image size itself */
+      }
+  }
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .gridContainer {
+      row-gap: 20px;
+    }
+  }
+  
+  /* Desktop (1201px+): allow a bit more breathing room */
+  @media (min-width: 1201px) {
+    .gridContainer {
+      row-gap: 40px; /* or your clamp(20px,5vh,40px) if you prefer fluid */
+    }
+  }
+  
+  /* Top half: the single header image fills it */
+  .topImageBox {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Bottom half: three equal flex items */
+  .bottomImagesBox {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    gap: 40px;
+  }
+  
+  /* Each logo-wrapper is one third of the bottom row */
+  .logoWrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Images will scale to fit their wrapper’s height */
+  .logoWrapper img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
+  

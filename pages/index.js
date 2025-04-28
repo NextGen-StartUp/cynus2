@@ -3,9 +3,9 @@ import AboutCynus from "../components/AboutCynus/AboutCynus";
 import Benefits from "../components/Benefits/Benefits";
 import Contact from "../components/Contact/Contact";
 import LandingPage from "../components/LandingPage/LandingPage";
-import MileStones from "../components/Milestones/Milestones";
+import Supporter from "../components/Supporter/Supporter";
 import WhoWeAre from "../components/WhoWeAre/WhoWeAre";
-
+import Achievements from "../components/Achievements/Achievements";
 
 export default function Home() {
 
@@ -29,9 +29,10 @@ export default function Home() {
         <AboutCynus />
       </div>
       
-      <MileStones />
-      <WhoWeAre />
+      <Achievements />
       <Benefits />
+      <WhoWeAre />
+      <Supporter />
       <Contact />
     </>
   );
