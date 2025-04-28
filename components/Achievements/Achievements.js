@@ -70,7 +70,7 @@ export default function Achievements() {
           <Box className={styles.textbox}>
             <FadeInWhenVisible>
               <Text as="h6" fontSize="4xl" fontWeight="bold" mt={4} textAlign="center">
-                We're proud to have been recognized with multiple awards over the years!
+                We&apos;re proud to have been recognized with multiple awards over the years!
               </Text>
 
               {/* Chakra List wrapper fixes the ListItem error */}
