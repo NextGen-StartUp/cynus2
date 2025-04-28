@@ -39,8 +39,8 @@ export default function Achievements() {
               {/* Full‐height Gründerpreis */}
               <Box className={styles.logoColumn}>
                 <Image
-                  src="/image/gruendungspreis.png"
-                  alt="BMWK Gründerpreis+"
+                  src="/image/Gruendungspreis.png"
+                  alt="BMWK Gründerpreis"
                   objectFit="contain"
                 />
               </Box>
