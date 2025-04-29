@@ -6,38 +6,7 @@
                       /* vertical space between top & bottom */
     
   }
-  
-  @media (max-width: 900px) {
-    .gridContainer {
-      grid-template-rows: auto auto;
-      height: auto;
-      margin: 0 20px;
-      gap: 20px;
-    }
-    .bottomImagesBox {
-        flex-direction: column;
-        align-items: stretch;  /* so each child is full width */
-        gap: 20px;             /* a little less gap on mobile */
-      }
-      .logoWrapper {
-        flex: none;            /* don’t flex-grow on mobile */
-        width: 100%;           /* full-width wrappers */
-        height: auto;          /* let the image size itself */
-      }
-  }
-  @media (min-width: 901px) and (max-width: 1200px) {
-    .gridContainer {
-      row-gap: 20px;
-    }
-  }
-  
-  /* Desktop (1201px+): allow a bit more breathing room */
-  @media (min-width: 1201px) {
-    .gridContainer {
-      row-gap: 40px; /* or your clamp(20px,5vh,40px) if you prefer fluid */
-    }
-  }
-  
+
   /* Top half: the single header image fills it */
   .topImageBox {
     width: 100%;
@@ -66,4 +35,40 @@
     width: auto;
     object-fit: contain;
   }
+
+    /* Desktop (1201px+): allow a bit more breathing room */
+  @media (min-width: 1201px) {
+      .gridContainer {
+        row-gap: 40px; /* or your clamp(20px,5vh,40px) if you prefer fluid */
+      }
+    }
+
+    @media (min-width: 901px) and (max-width: 1200px) {
+      .gridContainer {
+        row-gap: 10px;
+      }
+    }
+
+  @media (max-width: 900px) {
+    .gridContainer {
+      grid-template-rows: auto auto;
+      height: auto;
+      margin: 0 20px;
+      gap: 0px;
+    }
+    .bottomImagesBox {
+        flex-direction: column;
+        align-items: stretch;  /* so each child is full width */
+        gap: 0px;             /* a little less gap on mobile */
+      }
+      .logoWrapper {
+        flex: none;            /* don’t flex-grow on mobile */
+        width: 100%;           /* full-width wrappers */
+        height: auto;          /* let the image size itself */
+      }
+      .topImageBox {
+        padding-bottom: 40px;
+      }
+  }
+  
   

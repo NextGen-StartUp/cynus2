@@ -60,7 +60,7 @@ body button {
 
 
 body h1 {
-  font-size: 1.7rem;
+  font-size: 40px;
   color: var(--color-light)
 }
 
@@ -78,7 +78,7 @@ body h4 {
   color: #ffffff99;
 }
 body h5 {
-  font-size: 25.5px;
+  font-size: 40px;
 }
 
 body h6 {

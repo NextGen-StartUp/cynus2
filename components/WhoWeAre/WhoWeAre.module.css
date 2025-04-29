@@ -46,3 +46,11 @@
 .overlayArea:hover .tooltip {
   display: block;
 }
+
+
+@media (max-width: 900px) {
+  .paddingTop h1 {
+    margin-bottom: 30px;
+  }
+ 
+}
