@@ -3,14 +3,15 @@
     grid-template-rows: 1fr 1fr; /* two equal‐height rows */
     max-height: 140vh;                /* total container height (adjust as desired) */
     margin: 0 60px;              /* match your Achievements page */
-                      /* vertical space between top & bottom */
+    justify-items: center;                  /* vertical space between top & bottom */
     
   }
 
   /* Top half: the single header image fills it */
   .topImageBox {
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
+    align-self: center;
   }
   
   /* Bottom half: three equal flex items */
@@ -41,6 +42,7 @@
       .gridContainer {
         row-gap: 40px; /* or your clamp(20px,5vh,40px) if you prefer fluid */
       }
+    
     }
 
     @media (min-width: 901px) and (max-width: 1200px) {
@@ -68,7 +70,10 @@
       }
       .topImageBox {
         padding-bottom: 40px;
+        width:100%;
+    height:100%;
       }
   }
   
+
   

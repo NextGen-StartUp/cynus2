@@ -47,6 +47,11 @@ export default function Achievements() {
               {/* Three smaller logos */}
               <Box className={styles.logoColumn}>
                 <Image
+                  src="../../image/Cyberone.png"
+                  alt="CyberOne Hightech Award"
+                  objectFit="contain"
+                />
+                <Image
                   src="/image/FoundersClub.png"
                   alt="Founders Club Freiburg"
                   objectFit="contain"
@@ -54,11 +59,6 @@ export default function Achievements() {
                 <Image
                   src="/image/PfiffikusLogo.png"
                   alt="Gründerideenpreis Pfiffikus"
-                  objectFit="contain"
-                />
-                <Image
-                  src="../../image/Cyberone.png"
-                  alt="CyberOne Hightech Award"
                   objectFit="contain"
                 />
               </Box>
