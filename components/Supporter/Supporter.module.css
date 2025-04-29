@@ -52,14 +52,11 @@
     }
 
   @media (max-width: 900px) {
-    .grid-container {
-      grid-template-columns: 1fr;
-      padding: 0 20px;
-      height: auto !important;
-      min-height: auto !important;
-      /* padding-bottom: 20px;
-      margin-bottom: 0; */
-      gap: 20px;
+    .gridContainer {
+      grid-template-rows: auto auto;
+      height: auto;
+      margin: 0 20px;
+      gap: 0px;
     }
     .bottomImagesBox {
         flex-direction: column;
