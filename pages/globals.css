@@ -93,7 +93,7 @@ body hr {
 
 
 .padding-about {
-  padding: 80px;
+  padding: 60px;
 }
 .text-uppercase {
   text-transform: uppercase;
@@ -634,6 +634,7 @@ padding: 0px;
   .grid-line {
     border-right: 0px solid rgba(255, 255, 255, 0.247);
     padding-right: 0px;
+    margin-left: 10px;
   }
 
   .sphere {
