@@ -39,9 +39,9 @@ function Benefits() {
             <div className="card">
               <div className="card-Image">
                 <Image
-                  h="190px"
-                  w="54%"
-                  objectFit="cover"
+                  maxH={{ base: "100px", md: "140px" }}
+                  maxW={{ base: "80%",  md: "100%" }}
+                  objectFit="contain"
                   src="../../image/computer-desktop.png"
                   className="align-center"
                   alt="Sign for High Ergonomics"
@@ -63,9 +63,9 @@ function Benefits() {
               <div className="card">
                 <div className="card-Image">
                   <Image
-                    h="190px"
-                    w="52%"
-                    objectFit="cover"
+                   maxH={{ base: "100px", md: "140px" }}
+                   maxW={{ base: "80%",  md: "100%" }}
+                   objectFit="contain"
                     src="../../image/computer-desktop.png"
                     className="align-center"
                     alt="Sign for High Ergonomics"
@@ -92,9 +92,9 @@ function Benefits() {
             <div className="card">
               <div>
                 <Image
-                  h="190px"
-                  w="54%"
-                  objectFit="cover"
+               maxH={{ base: "100px", md: "140px" }}
+               maxW={{ base: "80%",  md: "100%" }}
+               objectFit="contain"
                   src="../../image/time-to-market.png"
                   className="align-center"
                   alt="Sign for increased Productivity"
@@ -114,9 +114,9 @@ function Benefits() {
               <div className="card">
                 <div>
                   <Image
-                    h="190px"
-                    w="52%"
-                    objectFit="cover"
+                   maxH={{ base: "100px", md: "140px" }}
+                   maxW={{ base: "80%",  md: "100%" }}
+                   objectFit="contain"
                     src="../../image/time-to-market.png"
                     className="align-center"
                     alt="Sign for increased Productivity"
@@ -143,9 +143,9 @@ function Benefits() {
             <div className="card">
               <div>
                 <Image
-                  h="190px"
-                  w="54%"
-                  objectFit="cover"
+                  maxH={{ base: "100px", md: "140px" }}
+                  maxW={{ base: "80%",  md: "100%" }}
+                  objectFit="contain"
                   src="../../image/multiple.png"
                   className="align-center"
                   alt="Sign to use on all devices"
@@ -168,9 +168,9 @@ function Benefits() {
               <div className="card">
                 <div>
                   <Image
-                    h="190px"
-                    w="52%"
-                    objectFit="cover"
+              maxH={{ base: "100px", md: "140px" }}
+              maxW={{ base: "80%",  md: "100%" }}
+              objectFit="contain"
                     src="../../image/multiple.png"
                     className="align-center"
                     alt="Sign to use on all devices"
@@ -200,9 +200,9 @@ function Benefits() {
             <div className="card">
               <div>
                 <Image
-                  h="190px"
-                  w="54%"
-                  objectFit="cover"
+                   maxH={{ base: "100px", md: "140px" }}
+                   maxW={{ base: "80%",  md: "100%" }}
+                   objectFit="contain"
                   src="../../image/road-sign.png"
                   className="align-center"
                   alt="Sign for More Flexibility"
@@ -224,9 +224,9 @@ function Benefits() {
               <div className="card">
                 <div>
                   <Image
-                    h="190px"
-                    w="52%"
-                    objectFit="cover"
+                     maxH={{ base: "100px", md: "140px" }}
+                     maxW={{ base: "80%",  md: "100%" }}
+                     objectFit="contain"
                     src="../../image/road-sign.png"
                     className="align-center"
                     alt="Sign for More Flexibility"

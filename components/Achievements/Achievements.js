@@ -70,9 +70,11 @@ export default function Achievements() {
             <FadeInWhenVisible>
               <Text
                 as="h6"
-                fontSize="4xl"
+                fontSize="3xl"
                 fontWeight="bold"
                 mt={4}
+                lineHeight={{ base: "1.1", md: "1.6", lg: "1.8" }}// more breathing room
+  letterSpacing="0.02em"                       
                 textAlign="center"
               >
                 We&apos;re proud to have been recognized with multiple awards
@@ -86,7 +88,7 @@ export default function Achievements() {
                 mt={4}
                 textAlign="left"
                 display="inline-block"
-                fontSize="xl"
+                fontSize="16px"
               >
                 {items.map(({ year, text }) => (
                   <FadeInWhenVisible key={year}>

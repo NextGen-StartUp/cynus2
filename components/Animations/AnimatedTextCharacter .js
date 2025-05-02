@@ -49,7 +49,7 @@ const AnimatedTextCharacter = ({ text, delay = 0 }) => {
     >
       {letters.map((letter, index) => (
         <motion.span variants={child} key={index}
-        style={{ fontSize: "clamp(1.1rem, 3vw, 3rem)", // default font size
+        style={{ fontSize: "clamp(1.0rem, 2vw, 2.5rem)", // default font size
             // set different font sizes based on screen width
             "@media screen and (minWidth: 600px)": {
               fontSize: "clamp(2rem, 4vw, 4rem)",

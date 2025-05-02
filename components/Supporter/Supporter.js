@@ -32,8 +32,8 @@ function Supporter({}) {
                 <Image
                   src="/image/SupporterImg.png"
                   alt="Bundesministerium für Wirtschaft und Klimaschutz"
-                  w="100%"
-                  h="100%"
+                  w="90%"
+                  h="90%"
                   objectFit="contain"
                 />
               </Box>
@@ -45,8 +45,7 @@ function Supporter({}) {
                     <Image
                       src={src}
                       alt={alt}
-                      w="100%"
-                      h="100%"
+                      
                       objectFit="contain"
                     />
                   </Box>

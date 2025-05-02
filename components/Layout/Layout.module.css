@@ -1,17 +1,18 @@
 .bgHeader {
-  height: 102px;
+  height: 87px;
   width: 100%;
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
   background: var(--color-dark-opacity);
-  font-size: 22px;
+  font-size: 18px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+  
 }
 
 .header {
-    height: 99px;
+    height: 85px;
     width: 100%;
     padding: 40px 40px;
     display: flex;
@@ -53,13 +54,13 @@
   flex-direction: row;
 }
 .word {
-  font-size: 20px;
+  font-size: 18px;
   opacity:0;
   position: absolute;
   width: -20%;
   text-align: left;
   color: #ffffff99;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
 }
 .logoContainer {
   display: flex;
@@ -69,8 +70,8 @@
 
 .logoHexagon {
   position: relative;
-  width: 80px; /* Reduced width for a smaller hexagon */
-  height: 80px; /* Reduced height to maintain hexagon proportions (1.15 times width) */
+  width: 70px; /* Reduced width for a smaller hexagon */
+  height: 70px; /* Reduced height to maintain hexagon proportions (1.15 times width) */
   background-color: #ffffff;
   clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
   display: flex;

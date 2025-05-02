@@ -2,15 +2,17 @@
   display: flex;
   align-items: stretch;     /* ← let columns be same height */
   justify-content: center;
-  gap: 40px;
+  padding-left: 20px; 
+  gap: 24px;
   height: 100%;             /* ← fill the grid’s height */
 }
 
 .logoColumn {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 45px;
 }
 
 .logoColumn img {
@@ -20,12 +22,12 @@
 
 /* 1st column: make it grow and center its one child vertically */
 .logoColumn:first-child img {
-  max-height: clamp(390px, 30vw, 340px);
+  max-height: clamp(280px, 22vw, 260px);
 }
 
 /* the “other three” logos stay small and equal */
 .logoColumn:not(:first-child) img {
-  max-height: clamp(60px, 12vw, 100px);
+  max-height: clamp(50px, 10vw, 80px);
 }
 
 .Imgbox img {
@@ -42,7 +44,7 @@
   align-items: center;       /* ← vertical-center both columns */
   min-height: 80vh;          /* or 100vh if you want full viewport height */
   padding: 0 60px;
-  gap: 8%;
+  gap: 1%;
 }
 
 .textbox {
@@ -71,6 +73,7 @@
     flex-direction: column;
     gap: 40px;
     height: auto;
+    padding-left: 0px;
   }
   
   .grid-container {

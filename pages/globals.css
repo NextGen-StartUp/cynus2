@@ -60,12 +60,12 @@ body button {
 
 
 body h1 {
-  font-size: 40px;
+  font-size: 32px;
   color: var(--color-light)
 }
 
 body h2 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: var(--color-light)
 }
 
@@ -78,11 +78,12 @@ body h4 {
   color: #ffffff99;
 }
 body h5 {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 body h6 {
-  font-size: 19.8px;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
   color: var(--color-light-gray);
 }
 
@@ -188,13 +189,15 @@ body hr {
   z-index: 100;
   height: 1px;
   background-color: #00cc83;
-  margin-top: 101px;
+  margin-top: 86px;
 }
 
 .grid-line {
   /* border-right: 1px solid rgba(255, 255, 255, 0.247); */
-  padding-right: 45px;
-  
+  padding-right: 0px;
+  margin-bottom: 20px;
+  width: 90%;
+  justify-self: center; 
 }
 
 .align-left {
@@ -361,15 +364,15 @@ padding: 0px;
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 5%;
-  margin: 0px 60px 0px 60px;
+  gap: 4%; 
+  margin: 0 60px;
   
 }
 .grid-container2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 5%;
-  margin: 0px 60px 0px 60px;
+  gap: 1%; 
+  margin: 0 60px;
 }
 
 .card {
@@ -381,6 +384,11 @@ padding: 0px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+.card h5 {
+  font-size: 25px !important;
+  font-weight: 500;
 }
 
 .border-side {
@@ -405,17 +413,17 @@ padding: 0px;
 
 .spacer-small {
   width: 100%;
-  height: 1.2rem;
+  height: 0.8rem;
 }
 
 .spacer-medium  {
   width: 100%;
-  height: 2.8rem;
+  height: 1.6rem;
 }
 
 .spacer-large {
   width: 100%;
-  height: 8rem;
+  height: 8rem;;
 }
 
 .headlines {
@@ -437,9 +445,10 @@ padding: 0px;
   transform: translateX(0);
 }
 .img-container {
-  width: 100%;
+  width: 80%;
   height: auto;
   padding: 15px;
+  justify-self: center;
 }
 
 .contact-icon-hover a:hover {
@@ -496,7 +505,7 @@ padding: 0px;
     font-size: 15px;
   }
   .padding-about {
-    padding: 20px 10px;;
+    padding: 20px 0px;;
   }
 }
 
@@ -597,7 +606,7 @@ padding: 0px;
   }
   
   .card h6 {
-    font-size: 20px;
+    font-size: 16px;
     padding: 5px 15px 20px 15px;
     
   }
@@ -676,5 +685,7 @@ padding: 0px;
     position: relative;
     z-index: 1;
   }
-
+  body h2 {
+    font-size: 16px;
+  }
 }

@@ -1,8 +1,8 @@
 .gridContainer {
     display: grid;
     grid-template-rows: 1fr 1fr; /* two equal‐height rows */
-    max-height: 140vh;                /* total container height (adjust as desired) */
-    margin: 0 60px;              /* match your Achievements page */
+    max-height: 120vh;                /* total container height (adjust as desired) */
+    margin: 0px 60px;              /* match your Achievements page */
     justify-items: center;                  /* vertical space between top & bottom */
     
   }
@@ -17,9 +17,13 @@
   /* Bottom half: three equal flex items */
   .bottomImagesBox {
     display: flex;
-    width: 100%;
-    height: 60%;
-    gap: 40px;
+    justify-content: center; /* center logos as a tight group */
+    align-items: center;
+    gap: 8px;                 /* small space between logos */
+    width: auto;              /* shrink-wrap to the logos */
+    margin: 0 auto;           /* keep it centered in the page */
+    /* remove any fixed height so it sizes to its content */
+    height: 50%;
   }
   
   /* Each logo-wrapper is one third of the bottom row */
@@ -28,6 +32,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 120%;
+    
   }
   
   /* Images will scale to fit their wrapper’s height */
@@ -36,7 +42,9 @@
     width: auto;
     object-fit: contain;
   }
+  
 
+  
     /* Desktop (1201px+): allow a bit more breathing room */
   @media (min-width: 1201px) {
       .gridContainer {
@@ -70,8 +78,10 @@
       }
       .topImageBox {
         padding-bottom: 40px;
+        margin-bottom: 110px;
+        margin-top: 10px;
         width:100%;
-    height:100%;
+        height:100%;
       }
   }
   
