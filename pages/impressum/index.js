@@ -60,7 +60,10 @@ function Impressum() {
         <div className="spacer-medium"></div>
         <div className="spacer-small"></div>
         <h5>Angaben gemäß §5 TMG:</h5>
-        <h6>Delon Wagner</h6>
+        <div className="spacer-small"></div>
+        <h6>Cynus GmbH</h6>
+        <h6>Vertreten durch die Geschäftsführer: Delon Wagner</h6>
+        <h6>Handelsregister: HRB 733491</h6>
         <div className="spacer-medium"></div>
         <div className="spacer-small"></div>
         <h5>Email:</h5>
@@ -68,10 +71,9 @@ function Impressum() {
         <div className="spacer-medium"></div>
         <div className="spacer-small"></div>
         <h5>Adresse:</h5>
-        <h6>Stefan-Meier-Straße 21</h6>
-        <h6>79104 Freiburg im Breisgau</h6>
+        <h6>Zasiusstraße 6A</h6>
+        <h6>79102 Freiburg im Breisgau</h6>
         <div className="spacer-medium"></div>
-        <h1>Hinter Cynus verbirgt sich aktuell ein Gründungsvorhaben aus drei Gründern.</h1>
         <div className="spacer-medium"></div>
         <Link href="/"><h6>Back to 3D Mouse</h6></Link>
       </div>
