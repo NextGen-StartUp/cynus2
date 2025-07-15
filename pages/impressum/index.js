@@ -71,7 +71,7 @@ function Impressum() {
         <div className="spacer-medium"></div>
         <div className="spacer-small"></div>
         <h5>Adresse:</h5>
-        <h6>Zasiusstraße 6A</h6>
+        <h6>Zasiusstraße 6A </h6>
         <h6>79102 Freiburg im Breisgau</h6>
         <div className="spacer-medium"></div>
         <div className="spacer-medium"></div>
